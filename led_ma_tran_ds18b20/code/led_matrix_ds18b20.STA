@@ -1,0 +1,60 @@
+
+ROM used:   1013/8192 (12%)
+            1013/8192 (12%) including unused fragments
+
+            0.7 Average locations per line
+            4.8 Average locations per statement
+
+RAM used:   176/368 (48%) at main() level
+            187/368 (51%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  146    84  40  led_matrix_ds18b20.c
+   25     0   0  led_matrix_ds18b20.h
+  758     0   0  C:\Program Files (x86)\PICC\Devices\16F887.h
+    3     0   0  myds18b20.h
+   11     0   0  my_sign.h
+   37     0   0  C:\Program Files (x86)\PICC\Drivers\stdio.h
+  423   125  60  C:\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 1463   209 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     24   2    1             @delay_ms1
+ Inline         2   687  3.9  off_row
+0    119  12    0   143  1.3  sys_initialize
+ Inline         5   371  4.2  data_to_column
+0    572  56    8  2449  5.0  data_to_row
+0     25   2    5   163  1.8  @READBITA
+0    269  27    0   188  1.8  MAIN
+ Inline         0   188  1.8  @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              209
+    Comments                348
+    Volume (V)              5666
+    Difficulty (D)          20.1
+    Effort to implement (E) 113852
+    Time to implement (T)   1 hours, 45 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   1
+    Maintainability (MI)    31
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1009  1035  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

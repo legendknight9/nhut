@@ -1,0 +1,11 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Project1.PrjPCB|ReportField=ProjectFullPath~D:\altium designer 9 schematic\mach 1\PCB_Project1.PrjPCB|ReportField=Title~Bill of Materials For Project [PCB_Project1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~18|ReportField=ReportTime~6:10:51 PM|ReportField=ReportDate~2/15/2011|ReportField=ReportDateTime~2/15/2011 6:10:51 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2/15/2011|ReportField=CurrentTime~6:10:29 PM|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\altium designer 9 schematic\mach 1\Sheet1.SchDoc|ReportField=DocumentName~Sheet1.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2/15/2011|ReportField=Organization~|ReportField=ProjectName~PCB_Project1.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_Project1.PrjPCB|ReportField=DataSourceFullPath~D:\altium designer 9 schematic\mach 1\PCB_Project1.PrjPCB
+Cap|Capacitor|C1, C2|CAPR2.54-5.1x3.2|Cap|2
+Diode|Default Diode|D1, D2, D3|AXIAL-0.3|Diode|3
+Inductor Iron|Magnetic-Core Inductor|L1|AXIAL-0.9|Inductor Iron|1
+220V|Header, 2-Pin|P1|HDR1X2|Header 2|1
+DONG CO|Header, 2-Pin|P2|HDR1X2|Header 2|1
+Triac|Silicon Bidirectional Triode Thyristor|Q1|SFM-T3/A2.4V|Triac|1
+2N3904|NPN General Purpose Amplifier|Q2, Q3|SFM-T3/X1.6V|2N3904|2
+Res1|Resistor|R1, R2, R3, R4, R5|AXIAL-0.3|Res1|5
+RPot|Potentiometer|R6|VR5|RPot|1
+SW-SPDT|SPDT Subminiature Toggle Switch, Right Angle Mounting, Vertical Actuation|S1|TL36WW15050|SW-SPDT|1

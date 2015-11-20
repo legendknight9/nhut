@@ -1,0 +1,169 @@
+#include <led_matrix_ds18b20.h>
+#include <stdio.h>
+
+void fix_sim_err() {
+   int8 loop = 8;
+   output_high(LMRS);
+   delay_ms(5);
+   output_low(SC_SIGNAL);
+   delay_cycles(1);
+   output_high(SCCLK);
+   output_high(SC_SIGNAL);
+   delay_ms(1);
+   output_low(SCCLK);
+   delay_ms(1);
+   while(loop-- > 0) {
+      output_high(SCCLK);
+      delay_ms(1);
+      output_low(SCCLK);
+      delay_ms(1);   
+   }
+//   current_row = 7;
+}
+
+void off_row() {
+   int8 loop = 8;
+   output_high(LMRS);
+   delay_ms(5);
+   output_low(SC_SIGNAL);
+   delay_cycles(1);
+   output_high(SCCLK);
+   output_high(SC_SIGNAL);
+   delay_ms(1);
+   output_low(SCCLK);
+   delay_ms(1);
+   while(loop-- > 0) {
+      output_high(SCCLK);
+      delay_ms(1);
+      output_low(SCCLK);
+      delay_ms(1);   
+   }
+   current_row[0] = 1;
+   current_row[1] = 1;
+   current_row[2] = 1;
+   current_row[3] = 1;
+   current_row[4] = 1;
+   current_row[5] = 1;
+   current_row[6] = 1;
+   current_row[7] = 0;
+}
+
+void sys_initialize() {
+   output_D(0);
+   output_E(0);
+   output_low(LMRS);
+   output_high(SC_SIGNAL);
+   delay_ms(5);
+   output_high(LMRS);
+   delay_ms(5);
+   off_row();
+   //fix_sim_err();  
+}
+
+void data_to_column(int1 d_col[24]) {
+   int8 loop = 24;
+   while(loop > 0)
+   {      
+      output_bit(Data, shift_left(d_col, 3, 0));
+      delay_cycles(5);
+      output_high(SHCLK0);  
+      delay_us(5);
+      output_low(SHCLK0);
+      delay_us(5);
+      loop--;
+   }
+   output_high(SHCLK);  
+   delay_us(5);
+   output_low(SHCLK);
+   delay_us(5);
+}
+
+void scan_row() {
+   output_bit(SC_SIGNAL, shift_left(current_row, 1, input(SC_SIGNAL)));
+   delay_cycles(1);
+   output_high(SCCLK);  
+//   delay_us(50);
+   delay_us(1);
+   output_low(SCCLK);
+//   delay_us(50);   
+}
+
+   /*
+   22 21 20 19 18 17 16
+   14 13 12 11 10 9  8
+   6  5  4  2  2  1  0
+   
+   167 159 151 143 135 127 119
+   111 103 95  87  79  71  63
+   55  47  39  31  23  15  7  
+   */   
+void data_to_row(int1 d_row[168]) {
+   int8 column, line, index, indexDI, number_of_led_matrix_per_line;
+
+   column = 8;
+   while(column-- > 0)
+   {
+      line = 3;
+      while (line-- > 0) {                        
+         indexDI = 7 * line + line - 2;  
+         number_of_led_matrix_per_line = 7;
+         while (number_of_led_matrix_per_line-- > 0) {
+            index = (line * 56) - 1 - ((7 - number_of_led_matrix_per_line) * 8) - (8 - column);
+            d_column[indexDI--] = d_row[index];            
+         }
+      }
+      d_column[23] = 0;
+      data_to_column(d_column);
+   }
+   scan_row();
+}
+
+void main() {
+   sys_initialize();
+//data_to_row(d_row0); // row 0
+//scan_row();
+
+//!   while(TRUE) {
+//!      data_to_row(d_row0); // row 0
+//!      data_to_row(d_row1); // row 1
+//!      data_to_row(d_row2); // row 2
+//!      data_to_row(d_row3); // row 3
+//!      data_to_row(d_row4); // row 4
+//!      data_to_row(d_row5); // row 5
+//!      data_to_row(d_row6); // row 6
+//!      data_to_row(d_row7); // row 7
+//!   }
+while(TRUE) {
+int loop = 8;
+while (loop-- > 0) {
+   int8 column, line, index, indexDI, number_of_led_matrix_per_line;
+   int1 d_column1[24] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+   line = 3;
+   while (line-- > 0) {                        
+      indexDI = 7 * line + line - 2;  
+      number_of_led_matrix_per_line = 7;
+      while (number_of_led_matrix_per_line-- > 0) {
+         index = (line * 56) - 1 - ((7 - number_of_led_matrix_per_line) * 8) - (8 - column);
+         d_column1[indexDI--] = d_row0[index];            
+      }
+   }
+   d_column1[23] = 0;
+   int size = 24;
+   while(size-- > 0) d_column[size] = 1;
+   data_to_column(d_column);
+   scan_row();
+}
+}
+}
+/*
+while (TRUE) {
+   int1 d_column[24]  = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
+   data_to_column(d_column);
+   int1 d_column1[24] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0};
+   data_to_column(d_column1);
+   int1 d_column2[24] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+   data_to_column(d_column2);
+   int1 d_column3[24] = {1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0};
+   data_to_column(d_column3);
+}
+*/

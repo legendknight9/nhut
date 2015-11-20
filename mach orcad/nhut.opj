@@ -1,0 +1,57 @@
+(ExpressProject "nhut"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\nhut.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (LCD16*2
+      (FullPartName "LCD16*2.Normal")
+      (LibraryName "E:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\LCD\LCD.OLB")
+      (DeviceIndex "0"))
+    ("LED ARRAY"
+      (FullPartName "LED ARRAY.Normal")
+      (LibraryName "E:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\LIBRARY5.OLB")
+      (DeviceIndex "0"))
+    (ADC0809
+      (FullPartName "ADC0809.Normal")
+      (LibraryName "E:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\ATOD.OLB")
+      (DeviceIndex "0"))
+    (AT89C52
+      (FullPartName "AT89C52.Normal")
+      (LibraryName
+         "E:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\MICROCONTROLLER.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "E:\OrCAD\OrCAD_16.0\tools\capture\library\lcd")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "F:\Nhut drive\Study\Dien tu\mach orcad\nhut.dsn")
+      (Path "Design Resources"
+         "F:\Nhut drive\Study\Dien tu\mach orcad\nhut.dsn" "SCHEMATIC1")
+      (Select "Design Resources"
+         "F:\Nhut drive\Study\Dien tu\mach orcad\nhut.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 200 0 569"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 70 1130 193 796")
+        (Scroll "281 109")
+        (Zoom "234")
+        (Occurrence "/"))
+      (Path "F:\NHUT DRIVE\STUDY\DIEN TU\MACH ORCAD\NHUT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

@@ -1,0 +1,941 @@
+ISIS SCHEMATIC FILE  y Design plate DS  kjh\ kjdg\                         b   JS                             10/19/15                    10/19/15                    Äî  #V%V‹‡%V             îµh                                                       Ø  DESIGN CONFIGURATION DATA  Arial                                   Default Font                                ¦ À 
+    pÆ   <Ø`ç-À’ƒ M€€€ ÀÀÀ  À  ÀÀÀ     ÿ               ÀÀÀ                            ÀÀÀ     ÀÀÀ         ÿ       ÀÀÀ     ààÐ ÀÀÀ ÀÀÀ     ÿÿÿÿ         À      ÀÀÀ ÀÀÀ     ÿÿÿÿ     À   ÀÀ      À  ÀÀÀ     ÿ        ÀÀ  ÿ       À  ÀÀÀ     ÿÿÿ      ÿ  ÿ        À  ÀÀÀ     ÿÿÿ     ÿ     ÿ      À  ÀÀÀ     ÿÿÿ       ÿ ÿÿ       À  ÀÀÀ     ÿÿÿ     ÿÿ  ÿ ÿ      À  ÀÀÀ     ÿÿÿ     ÿ ÿ  ÿÿ      À  ÀÀÀ     ÿÿÿ      ÿÿ  ÀÀ      À  ÀÀÀ     ÿÿÿ      ÀÀ À À      À  ÀÀÀ     ÿÿÿ     À À ÀÀÀ ÿÿ  ÿÿÿ ààÐ ÿ   ÿ ÿ  À    À     ÿÿ  ÿ   ` `   ÿ ÿ@@ @@ÿ €€€ ÿÿ  ÀÀÀ  À  ÀÀÀ     ÿ          €€€ ÀÀÀ  À  ÀÀÀ     ÿ           	COMPONENT    Àž  €    ÈÈª ÈÈª  PIN    Àž  €   ÿÿÿ ÿÿÿ  PORT    Àž   @  ÿÿÿ ÿÿÿ  MARKER    `O    @ ÿÿÿ ÿÿÿ  ACTUATOR    `O  ÿ    @   @    	INDICATOR    `O   ÿ    @   @   VPROBE    `O    À ÿÿÿ ÿÿÿ  IPROBE    `O    À ÿÿÿ ÿÿÿ  TAPE    `O    À ÿÿÿ ÿÿÿ  	GENERATOR    `O    À ÿÿÿ ÿÿÿ  TERMINAL    Àž   @  ÿÿÿ ÿÿÿ  
+SUBCIRCUIT    €=   €  ÈÈª ÈÈª  
+2D GRAPHIC    Àž      ÿÿÿ ÿÿÿ  WIRE DOT    Àž   @    @   @   WIRE    Àž   @  ÿÿÿ ÿÿÿ  BUS WIRE    PS   À ÿÿÿ ÿÿÿ  BORDER     Àž   €€  ÈÈª ÈÈª  TEMPLATE     ˜²    € ÿÿÿ ÿÿÿ   COMPONENT ID&   HÐ À      ÿDefault Font      COMPONENT VALUE&   0à À      ÿDefault Font      
+PROPERTIES&   0à À      ÿDefault Font      TERMINAL LABEL&   0à À      ÿDefault Font      
+WIRE LABEL&   0à À      ÿDefault Font      	SUBCKT ID&   HÐ À      ÿDefault Font      SUBCKT NAME&   0à À      ÿDefault Font      SCRIPT&   0à À      ÿDefault Font      PIN NAME&   0à À      ÿDefault Font      
+PIN NUMBER&   0à À      ÿDefault Font      VPROBE LABEL&   0à À   À  ÿDefault Font      IPROBE LABEL&   0à À   À  ÿDefault Font      GENERATOR LABEL&   0à À   À  ÿDefault Font      
+TAPE LABEL&   0à À   À  ÿDefault Font      ACTIVE READOUT   0à ð  ÿ   ÿArial            PWRRAILS *RAILS
+*BINDINGS
+ þÿ$DCGENÞ³…3z  
+      j   `   "    `O    À ÿÿÿ ÿÿÿ GENERATOR    ¸/úÿð èþÿHÐ   èþÿð ¸/úÿ0à ÐüÿHÐ èþÿð  <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR         èþÿð 0   4                    $MKRORIGIN          0   4         ùÿHÐ    $MKRLABEL           <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR     ø| pÆ  ø| <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR àŒ ø| PS ø| <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR À ø| 0à ø| <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR  ¦ ø| m ø| <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR     PS ðù PS <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR €3 ø| ðù ø| $MKRBUSNODEÞ³…3I         =   8       `O    @ ÿÿÿ ÿÿÿ MARKER 9ÿÿpÆ      àŒ  sþÿ$MKRDECREMENT¯¡:ô         7   0   !    `O  ÿ    @   @   ACTUATOR         àŒ ;   4    !    `O  ÿ    @   @   ACTUATOR     9ÿÿÈœÿÿÈœÿÿ;   4    !    `O  ÿ    @   @   ACTUATOR     9ÿÿ8c  Èœÿÿ;   4    !    `O  ÿ    @   @   ACTUATOR     9ÿÿ    pÆ  $MKRINCREMENT°¡:ô         7   0   !    `O  ÿ    @   @   ACTUATOR         àŒ ;   4    !    `O  ÿ    @   @   ACTUATOR     pÆ  Èœÿÿ8c  ;   4    !    `O  ÿ    @   @   ACTUATOR     pÆ  8c  8c  ;   4    !    `O  ÿ    @   @   ACTUATOR     pÆ      9ÿÿ	$MKRLABELÞ³…3§         0   4                     $MKRORIGIN          k   f       `O    @ ÿÿÿ ÿÿÿ MARKER     èþÿ       0à À Default Font                        LABEL $MKRNODEÞ³…3~         9   4        `O    @ ÿÿÿ ÿÿÿ MARKER 9ÿÿpÆ  pÆ  9ÿÿ9   4        `O    @ ÿÿÿ ÿÿÿ MARKER 9ÿÿ9ÿÿpÆ  pÆ  
+$MKRORIGIN{©Ž3»         =   8       `O    @ ÿÿÿ ÿÿÿ MARKER 9ÿÿpÆ      àŒ  sþÿ9   4        `O    @ ÿÿÿ ÿÿÿ MARKER  sþÿ    àŒ     9   4        `O    @ ÿÿÿ ÿÿÿ MARKER     àŒ      sþÿ$MKRPINNAMEÞ³…3¦         0   4                     $MKRORIGIN          j   e       `O    @ ÿÿÿ ÿÿÿ MARKER     èþÿ       0à À Default Font                        NAME 
+$MKRPINNUMÞ³…3¤         0   4                     $MKRORIGIN          h   c       `O    @ ÿÿÿ ÿÿÿ MARKER ¸/úÿ           0à À Default Font                        99 
+$MKRTOGGLEŽæ7j        7   0   !    `O  ÿ    @   @   ACTUATOR         àŒ ;   4    !    `O  ÿ    @   @   ACTUATOR     9ÿÿ    pÆ  ;   4    !    `O  ÿ    @   @   ACTUATOR     9ÿÿÈœÿÿÈœÿÿ;   4    !    `O  ÿ    @   @   ACTUATOR     9ÿÿ8c  Èœÿÿ;   4    !    `O  ÿ    @   @   ACTUATOR Èœÿÿ8c      pÆ  ;   4    !    `O  ÿ    @   @   ACTUATOR     pÆ  8c  8c  $PINBUSÞ³…3œ         0   4                     $MKRORIGIN          0   4          ?øÿ        $MKRBUSNODE         0   4         ð         $MKRPINNAME         $PINDEFAULTÞ³…32        6   4        Àž  €   ÿÿÿ ÿÿÿ PIN  ?øÿ            0   4                     $MKRORIGIN          0   4          ?øÿ        $MKRNODE            0   4         Ðüÿ        $MKRPINNUM          0   4                     $MKRORIGIN          0   4         ð         $MKRPINNAME         $PINIECNEGIP–±’3n        6   4        Àž  €   ÿÿÿ ÿÿÿ PIN  ?øÿ            0   4                     $MKRORIGIN          0   4          ?øÿ        $MKRNODE            0   4         0à         $MKRPINNAME         6   4        Àž  €   ÿÿÿ ÿÿÿ PIN         Ðüÿð 6   4        Àž  €   ÿÿÿ ÿÿÿ PIN Ðüÿð Ðüÿ    0   4         ¸/úÿ        $MKRPINNUM          $PINIECPOSCLKç±’3f        d   `       Àž  €   ÿÿÿ ÿÿÿ PIN        èþÿð ð       ð ð         èþÿ    ð  6   4        Àž  €   ÿÿÿ ÿÿÿ PIN  ?øÿ            0   4          ?øÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4         0à         $MKRPINNAME         0   4         Ðüÿ        $MKRPINNUM          
+$PININVERTÞ³…3d        2   0       Àž  €   ÿÿÿ ÿÿÿ PIN XÖþÿ    ¨) 6   4        Àž  €   ÿÿÿ ÿÿÿ PIN  ?øÿ    °¬ýÿ    0   4         Ðüÿ        $MKRPINNUM          0   4                     $MKRORIGIN          0   4          ?øÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4         ð         $MKRPINNAME         
+$PINNEGCLKÞ³…3È        d   `       Àž  €   ÿÿÿ ÿÿÿ PIN        XÖþÿ¨) ¨)       ¨) ¨)         XÖþÿ    ¨)  6   4        Àž  €   ÿÿÿ ÿÿÿ PIN  ?øÿ    °¬ýÿ    0   4         Ðüÿ        $MKRPINNUM          2   0       Àž  €   ÿÿÿ ÿÿÿ PIN XÖþÿ    ¨) 0   4          ?øÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4                     $MKRORIGIN          0   4         ð         $MKRPINNAME         
+$PINPOSCLKÞ³…3–        d   `       Àž  €   ÿÿÿ ÿÿÿ PIN        XÖþÿ¨) ¨)       ¨) ¨)         XÖþÿ    ¨)  6   4        Àž  €   ÿÿÿ ÿÿÿ PIN  ?øÿ            0   4         Ðüÿ        $MKRPINNUM          0   4                     $MKRORIGIN          0   4          ?øÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4         ð         $MKRPINNAME         	$PINSHORTÞ³…3        6   4        Àž  €   ÿÿÿ ÿÿÿ PIN Ðüÿ            0   4         Ðüÿ        $MKRPINNUM          0   4         Ðüÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4                     $MKRORIGIN          	$SCPBIDIRß³…3o        e   `       Àž   @  ÿÿÿ ÿÿÿ PORT    Ðüÿ sþÿ    àŒ        sþÿ    àŒ Ðüÿ         sþÿ 7   4        Àž   @  ÿÿÿ ÿÿÿ PORT 0à          sþÿ7   4        Àž   @  ÿÿÿ ÿÿÿ PORT     àŒ 0à     0   4         Ðüÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4         HÐ         $MKRLABEL           $SCPBUSß³…3        o   `       Àž   @  ÿÿÿ ÿÿÿ PORT         sþÿ0à àŒ   0à  sþÿ     sþÿ    àŒ 0à àŒ 0à  sþÿ 0   4         HÐ         $MKRLABEL           0   4         Ðüÿ        $MKRBUSNODE         0   4                     $MKRORIGIN          $SCPDEFAULTß³…3V        ƒ   `       Àž   @  ÿÿÿ ÿÿÿ PORT    Ðüÿ sþÿ0à àŒ   0à  sþÿ     sþÿÐüÿ sþÿÐüÿàŒ     àŒ 0à àŒ 0à  sþÿ 7   4        Àž   @  ÿÿÿ ÿÿÿ PORT      sþÿ    àŒ 0   4         Ðüÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4         HÐ         $MKRLABEL           
+$SCPGROUNDß³…3ñ        y   `       Àž   @  ÿÿÿ ÿÿÿ PORT    Ðüÿ sþÿ0à àŒ   0à          sþÿÐüÿ sþÿÐüÿàŒ     àŒ 0à      7   4        Àž   @  ÿÿÿ ÿÿÿ PORT °¬ýÿ9ÿÿ sþÿ9ÿÿ7   4        Àž   @  ÿÿÿ ÿÿÿ PORT @æüÿ    9ÿÿ    7   4        Àž   @  ÿÿÿ ÿÿÿ PORT èþÿ    èþÿpÆ  7   4        Àž   @  ÿÿÿ ÿÿÿ PORT      sþÿ    àŒ 0   4                     $MKRORIGIN          0   4         Ðüÿ        $MKRNODE            0   4         HÐ         $MKRLABEL           	$SCPINPUTß³…3L        y   `       Àž   @  ÿÿÿ ÿÿÿ PORT    Ðüÿ sþÿ0à àŒ   0à          sþÿÐüÿ sþÿÐüÿàŒ     àŒ 0à      7   4        Àž   @  ÿÿÿ ÿÿÿ PORT      sþÿ    àŒ 0   4         Ðüÿ        $MKRNODE            0   4                     $MKRORIGIN          0   4         HÐ         $MKRLABEL           
+$SCPOUTPUTß³…3L        y   `       Àž   @  ÿÿÿ ÿÿÿ PORT    Ðüÿ sþÿ0à àŒ   Ðüÿ         sþÿ0à  sþÿ0à àŒ     àŒ Ðüÿ     7   4        Àž   @  ÿÿÿ ÿÿÿ PORT      sþÿ    àŒ 0   4         Ðüÿ        $MKRNODE            0   4         HÐ         $MKRLABEL           0   4                     $MKRORIGIN          	$SCPPOWERß³…3º        y   `       Àž   @  ÿÿÿ ÿÿÿ PORT    Ðüÿ sþÿ0à àŒ   0à          sþÿÐüÿ sþÿÐüÿàŒ     àŒ 0à      7   4        Àž   @  ÿÿÿ ÿÿÿ PORT      sþÿÐüÿàŒ 7   4        Àž   @  ÿÿÿ ÿÿÿ PORT Ðüÿ sþÿ    àŒ 7   4        Àž   @  ÿÿÿ ÿÿÿ PORT      sþÿ    àŒ 0   4         Ðüÿ        $MKRNODE            0   4         HÐ         $MKRLABEL           0   4                     $MKRORIGIN          $SINEGENß³…3B        j   `   "    `O    À ÿÿÿ ÿÿÿ GENERATOR    ¸/úÿð èþÿHÐ   èþÿð ¸/úÿ0à ÐüÿHÐ èþÿð  L   D   "    `O    À ÿÿÿ ÿÿÿ GENERATOR     ø|     hC pÆ  m ð m L   D   "    `O    À ÿÿÿ ÿÿÿ GENERATOR 0à ø| 0à hC ˆ¶ m ð m L   D   "    `O    À ÿÿÿ ÿÿÿ GENERATOR 0à ø| 0à PS  ¦ àŒ HÐ àŒ L   D   "    `O    À ÿÿÿ ÿÿÿ GENERATOR `À ø| `À PS ¸– àŒ HÐ àŒ <   4    "    `O    À ÿÿÿ ÿÿÿ GENERATOR         èþÿð 0   4                    $MKRORIGIN          0   4         ùÿHÐ    $MKRLABEL           	$TERBIDIRß³…3{        i   `   !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL         sþÿ0à àŒ       àŒ      sþÿ0à         àŒ  ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL     àŒ Ðüÿ    ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL      sþÿÐüÿ    0   4                     $MKRORIGIN          0   4         Ðüÿ        $MKRNODE            0   4         HÐ         $MKRLABEL           $TERBUSß³…3        i   `   !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL    èþÿèþÿ    ð       èþÿ    ð èþÿ        èþÿ 0   4         0à         $MKRBUSNODE         0   4                     $MKRORIGIN          0   4         Ðüÿ       $MKRLABEL           $TERDEFAULTß³…3        7   0   !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL °¬ýÿ    àŒ ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL 9ÿÿ    0à     0   4         0à         $MKRNODE            0   4                    $MKRORIGIN          0   4         ¸/úÿ       $MKRLABEL           
+$TERGROUNDß³…3ˆ        ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL     0à         ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL Ðüÿ    0à     ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL èþÿèþÿð èþÿ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL ÈœÿÿÐüÿ8c  Ðüÿ0   4                     $MKRORIGIN          0   4             0à     $MKRNODE            0   4         Ðüÿ ?øÿ    $MKRLABEL           	$TERINPUTß³…3@        i   `   !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL    Ðüÿ sþÿ    àŒ   ÐüÿàŒ Ðüÿ sþÿ        ÐüÿàŒ  ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL         0à     0   4                 tõ  $MKRORIGIN          0   4         0à     tõ  $MKRNODE            0   4         ¸/úÿ       $MKRLABEL           
+$TEROUTPUTß³…3@        i   `   !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL         sþÿ0à àŒ       àŒ      sþÿ0à         àŒ  ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL         Ðüÿ    0   4         HÐ         $MKRLABEL           0   4         Ðüÿ        $MKRNODE            0   4                     $MKRORIGIN          	$TERPOWERß³…3@        i   `   !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL    èþÿ    ð 0à   èþÿ        0à ð     èþÿ     ;   4    !    Àž   @  ÿÿÿ ÿÿÿ TERMINAL     Ðüÿ    0à 0   4             Ðüÿ    $MKRNODE            0   4                     $MKRORIGIN          0   4         Ðüÿ`À     $MKRLABEL            þÿ$IAC AMMETERÑ•ƒF3
+  Ð      v  	      8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À p   h   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿÀ À Arial                              AC Amps 0   4                     $MKRORIGIN          <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ¨Âôÿˆ¶ ˆOöÿˆ¶ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ‰õÿø| ‰õÿð <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT x°	 PS X= PS @   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à 0   4                     $MKRORIGIN          n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8     ?øÿ        $PINSHORT +   
+  `À     øø $PINSHORT -  IMETER_C         8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À 0   4                     $MKRORIGIN          <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ¨Âôÿˆ¶ ˆOöÿˆ¶ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ‰õÿø| ‰õÿð <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT x°	 PS X= PS @   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à 0   4                     $MKRORIGIN          n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8 IMETER_0 X        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À 0   4                     $MKRORIGIN          <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ¨Âôÿˆ¶ ˆOöÿˆ¶ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ‰õÿø| ‰õÿð <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT x°	 PS X= PS 0   4                     $MKRORIGIN          IMETER_1 |         @   8   "    `O   ÿ    @   @  INDICATOR m 9ÿÿ    Ú
+ 0à 0   4                    $MKRORIGIN          IMETER_2 ¬         p   h   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿÀ À Arial                              AC Amps 0   4                     $MKRORIGIN          IMETER_3 ª         n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿÀ À Arial                              AC mA 0   4                    $MKRORIGIN          IMETER_4 ª         0   4                    $MKRORIGIN          n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿÀ À Arial                              AC µA _  {*DEVICE}
+{ACTIVE=IMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Amps",3="Milliamps",4="Microamps"}
+{TC="Time Constant",FLOAT,PNZ}
+{*INDEX}
+{*COMPONENT}
+{MODDLL=READOUT}
+{MODFILE=ACIMETER}
+{STATE=2}
+{TC=100ms}
+{PACKAGE=NULL}
+ $IAC VOLTMETERÑ•ƒF7
+  ¢      G        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À q   i   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿÀ À Arial                              AC Volts <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿèv
+ @æüÿèv
+ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT °¬ýÿX= °¬ýÿx°	 <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿ‰õÿ@æüÿ‰õÿ@   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8 0   4                     $MKRORIGIN           
+       ?øÿŒ
+ $PINSHORT -   
+      `À tõ $PINSHORT +  VMETER_C Ö        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿèv
+ @æüÿèv
+ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT °¬ýÿX= °¬ýÿx°	 <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿ‰õÿ@æüÿ‰õÿ@   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8 0   4                     $MKRORIGIN          VMETER_0 (        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿèv
+ @æüÿèv
+ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT °¬ýÿX= °¬ýÿx°	 <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿ‰õÿ@æüÿ‰õÿ0   4                     $MKRORIGIN          VMETER_1 |         @   8   "    `O   ÿ    @   @  INDICATOR m 9ÿÿ    Ú
+ 0à 0   4                    $MKRORIGIN          VMETER_2 ­         q   i   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿÀ À Arial                              AC Volts 0   4                     $MKRORIGIN          VMETER_3 Ú         n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿÀ À Arial                              AC mV 0   4                    $MKRORIGIN          0   4                    $MKRORIGIN          VMETER_4 Ú         n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿÀ À Arial                              AC µV 0   4                    $MKRORIGIN          0   4                    $MKRORIGIN          ‘  {*DEVICE}
+{ACTIVE=VMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Volts",3="Millivolts",4="Microvolts"}
+{LOAD="Load Resistance",FLOAT,PNZ}
+{TC="Time Constant",FLOAT,PNZ}
+{*INDEX}
+{*COMPONENT}
+{LOAD=100M}
+{MODDLL=READOUT}
+{MODFILE=ACVMETER}
+{STATE=2}
+{TC=100ms}
+{PACKAGE=NULL}
+ $ICOUNTER TIMERÑ•ƒFT$  k"      Ü  ;      @   8   "    Àž  €    ÈÈª ÈÈª COMPONENT     @ðÿ    ýÁÿÀ€ 0   4                    $MKRORIGIN          @   8   "    Àž  €        ÈÈª `COMPONENT  Ú
+ Xoòÿ     œ1   <   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ¨ ƒüÿØp ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT p- Ðüÿ8Ê Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT p-  ?øÿ   ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Ô ÐüÿØp Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT 8Ê hÜ÷ÿ g p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Øp hÜ÷ÿ  p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT 8Ê 8üóÿhª 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ð` ƒüÿ A ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ¸ý Ðüÿ€š Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ¸ý  ?øÿèÝ  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT X¤ Ðüÿ A Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT €š hÜ÷ÿH7 p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  A hÜ÷ÿèÝ p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT €š 8üóÿ°z 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT 81 ƒüÿh ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  Î ÐüÿÈj Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  Î  ?øÿ0®  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  t Ðüÿh Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Èj hÜ÷ÿ p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT h hÜ÷ÿ0® p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Èj 8üóÿøJ 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT € ƒüÿ°á" ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Hž Ðüÿ; Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Hž  ?øÿx~"  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT èD# Ðüÿ°á" Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ; hÜ÷ÿØ× p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT °á" hÜ÷ÿx~" p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ; 8üóÿ@" 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ÈÑ$ ƒüÿø±( ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT n$ ÐüÿX$ Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT n$  ?øÿÀN(  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT 0) Ðüÿø±( Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT X$ hÜ÷ÿ ¨# p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ø±( hÜ÷ÿÀN( p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT X$ 8üóÿˆë' 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ¢* ƒüÿ@‚. ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Ø>* Ðüÿ Û) Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Ø>*  ?øÿ.  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT xå. Ðüÿ@‚. Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  Û) hÜ÷ÿhx) p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT @‚. hÜ÷ÿ. p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  Û) 8üóÿÐ»- 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Xr0 ƒüÿˆR4 ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  0 Ðüÿè«/ Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  0  ?øÿPï3  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Àµ4 ÐüÿˆR4 Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT è«/ hÜ÷ÿ°H/ p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT ˆR4 hÜ÷ÿPï3 p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT è«/ 8üóÿŒ3 8üóÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT  B6 ƒüÿÐ": ƒüÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT hß5 Ðüÿ0|5 Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT hß5  ?øÿ˜¿9  ?øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT †: ÐüÿÐ": Ø¢øÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT 0|5 hÜ÷ÿø5 p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT Ð": hÜ÷ÿ˜¿9 p_ôÿ<   4    "    Àž  €    ÈÈª ÈÈª xCOMPONENT 0|5 8üóÿ`\9 8üóÿ      p_ôÿ    $PINDEFAULT RST        Ðüÿ    $PINPOSCLK CLK         ?øÿ    $PINDEFAULT CE  CTIMER_0 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿCTIMER_1 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ0   4                     $MKRORIGIN          CTIMER_2 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ0   4                     $MKRORIGIN          CTIMER_3 à        <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ0   4                     $MKRORIGIN          CTIMER_4 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿCTIMER_5 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿCTIMER_6 à        <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿCTIMER_7 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ0   4                     $MKRORIGIN          <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿCTIMER_8 à        <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿCTIMER_9 à        <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT ¨) €ÌùÿpÆ  ˆOöÿ0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ¨) PìõÿØ	 Pìõÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ ¸/úÿm ¸/úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT àŒ èþÿ¨) ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 èþÿHÐ ð’úÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT HÐ €Ìùÿm ˆOöÿ<   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT ð  sþÿHÐ  sþÿCTIMER_10 x         0   4                     $MKRORIGIN          <   4    "    ø  F    ÈÈª ÈÈª xCOMPONENT €3 ‰õÿ€3 ‰õÿCTIMER_11 x         0   4                     $MKRORIGIN          <   4    "    ø  ÿ    ÈÈª ÈÈª xCOMPONENT €3 ‰õÿ€3 ‰õÿå  {*DEVICE}
+{ACTIVE=CTIMER,12,DLL}
+{HELP=INSTRUMENTS>POPUP,505}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODE="Operating Mode",KWDLIST,4,0="Time (secs)",1="Time (hms)",2="Frequency",3="Count"}
+{GATEPOL="Count Enable Polarity",KWDLIST,2,0="High",1="Low"}
+{RSTEDGE="Reset Edge Polarity",KWDLIST,2,0="Low-High",1="High-Low"}
+{*INDEX}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=CTIMER.DLL}
+{RSTEDGE=0}
+{GATEPOL=0}
+{MODE=0}
+{PACKAGE=NULL}
+ $IDC AMMETERÑ•ƒFý	  Ä      s  	      8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À m   e   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿ”® À Arial                              Amps 0   4                     $MKRORIGIN          <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ¨Âôÿˆ¶ ˆOöÿˆ¶ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ‰õÿø| ‰õÿð <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT x°	 PS X= PS @   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à 0   4                     $MKRORIGIN          n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8     ?øÿ        $PINSHORT +   
+  `À     øø $PINSHORT -  IMETER_C         8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À 0   4                     $MKRORIGIN          <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ¨Âôÿˆ¶ ˆOöÿˆ¶ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ‰õÿø| ‰õÿð <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT x°	 PS X= PS @   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à 0   4                     $MKRORIGIN          n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8 IMETER_0 X        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À 0   4                     $MKRORIGIN          <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ¨Âôÿˆ¶ ˆOöÿˆ¶ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT ‰õÿø| ‰õÿð <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT x°	 PS X= PS 0   4                     $MKRORIGIN          IMETER_1 |         @   8   "    `O   ÿ    @   @  INDICATOR m 9ÿÿ    Ú
+ 0à 0   4                    $MKRORIGIN          IMETER_2 ©         m   e   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿ”® À Arial                              Amps 0   4                     $MKRORIGIN          IMETER_3 §         k   c   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿ”® À Arial                              mA 0   4                    $MKRORIGIN          IMETER_4 §         0   4                    $MKRORIGIN          k   c   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿ”® À Arial                              µA 5  {*DEVICE}
+{ACTIVE=IMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Amps",3="Milliamps",4="Microamps"}
+{*INDEX}
+{*COMPONENT}
+{MODDLL=READOUT}
+{MODFILE=DCIMETER}
+{STATE=2}
+{PACKAGE=NULL}
+ $IDC VOLTMETERÑ•ƒF
+  –      D        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿ”® À Arial                              Volts <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿèv
+ @æüÿèv
+ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT °¬ýÿX= °¬ýÿx°	 <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿ‰õÿ@æüÿ‰õÿ@   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8 0   4                     $MKRORIGIN           
+       ?øÿŒ
+ $PINSHORT -   
+      `À tõ $PINSHORT +  VMETER_C Ö        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿèv
+ @æüÿèv
+ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT °¬ýÿX= °¬ýÿx°	 <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿ‰õÿ@æüÿ‰õÿ@   8   "    `O   ÿ    @   @  INDICATOR ð’úÿ9ÿÿ     Ú
+ 0à n   f   "    `O   €    @   @  {INDICATOR     ¨)     
+ þÿ0à À Default Font                        +88.8 0   4                     $MKRORIGIN          VMETER_0 (        8   0   "    Àž  €    ÈÈª ÈÈª COMPONENT         `À <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿèv
+ @æüÿèv
+ <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT °¬ýÿX= °¬ýÿx°	 <   4    "    œ1  €    ÈÈª ÈÈª }COMPONENT  sþÿ‰õÿ@æüÿ‰õÿ0   4                     $MKRORIGIN          VMETER_1 |         @   8   "    `O   ÿ    @   @  INDICATOR m 9ÿÿ    Ú
+ 0à 0   4                    $MKRORIGIN          VMETER_2 ª         n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ   
+ ÿÿ”® À Arial                              Volts 0   4                     $MKRORIGIN          VMETER_3 ×         k   c   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿ”® À Arial                              mV 0   4                    $MKRORIGIN          0   4                    $MKRORIGIN          VMETER_4 ×         k   c   "    Àž  €    ÈÈª ÈÈª COMPONENT     ƒüÿ    
+ ÿÿ”® À Arial                              µV 0   4                    $MKRORIGIN          0   4                    $MKRORIGIN          g  {*DEVICE}
+{ACTIVE=VMETER,5,DLL}
+{HELP=INSTRUMENTS>POPUP,507}
+{*PROPDEFS}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{STATE="Display Range",KWDLIST,3,2="Volts",3="Millivolts",4="Microvolts"}
+{LOAD="Load Resistance",FLOAT,PNZ}
+{*INDEX}
+{*COMPONENT}
+{LOAD=100M}
+{MODDLL=READOUT}
+{MODFILE=DCVMETER}
+{STATE=2}
+{PACKAGE=NULL}
+ $II2C DEBUGGERÑ•ƒFŸ  œ       (        @   8   "    Àž  €    ÈÈª ÈÈª COMPONENT Ÿìÿp_ôÿ    àÁ&  A @   8   "    Àž    €  ÿÿÿ ÈÈª bCOMPONENT ¸/úÿ ?øÿ    èÝ øã l   d   "    Àž    À  ÈÈª ÈÈª {COMPONENT °¬ýÿ(]      ì ¨ À Arial                            F I2C 0   4                     $MKRORIGIN            Ÿìÿ`À     $PINDEFAULT SDA    Ÿìÿ        $PINDEFAULT SCL    Ÿìÿ ?øÿ    $PINDEFAULT TRIG  ÿ  {*DEVICE}
+{ACTIVE=I2C_DEBUG,0,DLL}
+{HELP=INSTRUMENTS>POPUP,510}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{CLOCKFREQ="Clock frequency in Hz",INT,PNZ}
+{ADDRESS1="Address byte 1",INT,0,255}
+{ADDRESS2="Address byte 2",INT,0,255}
+{STOPONEMPTY="Stop on buffer empty",BOOL}
+{TIMEPREC="Time display precision",ADVANCED INT,1,12}
+{WRAPLENGTH="New line after",ADVANCED INT,1,64}
+{AUTOLOAD="Queue stored sequences at startup",ADVANCED YESNO}
+{SEQUENCE_FILE="Sequence file",ADVANCED FILENAME,FALSE,,Text file/*.txt}
+{*INDEX}
+{CAT=Miscellaneous}
+{SUBCAT=}
+{MFR=}
+{DESC=I2C Protocol Debugger}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=i2cdebug.dll}
+{AUTOLOAD=0}
+{CLOCKFREQ=100000}
+{STOPONEMPTY=1}
+{WRAPLENGTH=64}
+{PACKAGE=NULL}
+ $ILOGIC ANALYSERÑ•ƒF³  †       è        @   8   "    Àž  €    ÈÈª ÈÈª COMPONENT @ðÿ >Ùÿ    `ÃE ¢* 0   4                     $MKRORIGIN          @   8   "    8c  €        ÈÈª dCOMPONENT ÈœÿÿPÝÿ    Pˆ' èD# 0   4                     $MKRORIGIN          <   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     ÐüÿàÁ& Ðüÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT      ?øÿàÁ&  ?øÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     p_ôÿàÁ& p_ôÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     @ðÿàÁ& @ðÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     ŸìÿàÁ& Ÿìÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     à¾èÿàÁ& à¾èÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     °ÞäÿàÁ& °Þäÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT 0à     0à PÝÿ<   4    "    ì	  €€€  ÈÈª ÈÈª xCOMPONENT     €þàÿàÁ& €þàÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT `À     `À PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT         PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT À€     À€ PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT ð`     ð` PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT  A      A PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT P!     P! PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT €     € PÝÿ<   4    "       €€€  ÈÈª ÈÈª xCOMPONENT °á"     °á" PÝÿ  @ðÿ        $PINDEFAULT A0    @ðÿÐüÿ    $PINDEFAULT A1    @ðÿ ?øÿ    $PINDEFAULT A2    @ðÿp_ôÿ    $PINDEFAULT A3    @ðÿ@ðÿ    $PINDEFAULT A4    @ðÿŸìÿ    $PINDEFAULT A5    @ðÿà¾èÿ    $PINDEFAULT A6    @ðÿ°Þäÿ    $PINDEFAULT A7     B6        $PINDEFAULT A8     B6 Ðüÿ   $PINDEFAULT A9     B6  ?øÿ   $PINDEFAULT A10     B6 p_ôÿ   $PINDEFAULT A11     B6 @ðÿ   $PINDEFAULT A12     B6 Ÿìÿ   $PINDEFAULT A13     B6 à¾èÿ   $PINDEFAULT A14     B6 °Þäÿ   $PINDEFAULT A15     @ðÿ€þàÿ    $PINBUS B0[0..7]     @ðÿPÝÿ    $PINBUS B1[0..7]      B6 €þàÿøø  $PINBUS B2[0..7]      B6 PÝÿøø  $PINBUS B3[0..7]  )  {*DEVICE}
+{ACTIVE=DLA,0,DLL}
+{HELP=INSTRUMENTS>POPUP,502}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model",READONLY STRING}
+{PACKAGE="PCB Package",PACKAGE,0}
+{*INDEX}
+{CAT=Virtual Instrument}
+{SUBCAT=}
+{MFR=}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=DLA}
+{PACKAGE=NULL}
+ $IOSCILLOSCOPEÑ•ƒFð!  ½       1  k      @   8   "    Àž  €    ÈÈª ÈÈª wCOMPONENT Ÿìÿ@ðÿ    °á" € @   8   "    8c        0  ÈÈª hCOMPONENT ˆOöÿˆOöÿ    Q ð` <   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿ0à   0à <   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿ`À   `À <   4    "             ÈÈª ÈÈª xCOMPONENT èþÿx°	 èþÿˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT     x°	     ˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT ð x°	 ð ˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT 0à x°	 0à ˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT HÐ x°	 HÐ ˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT `À x°	 `À ˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT x°	 x°	 x°	 ˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿHÐ   HÐ <   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿð   ð <   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿèþÿ  èþÿ<   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿÐüÿ  Ðüÿ<   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿ¸/úÿ  ¸/úÿ<   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿ ?øÿ   ?øÿ<   4    "             ÈÈª ÈÈª xCOMPONENT ¸/úÿx°	 ¸/úÿˆOöÿ<   4    "             ÈÈª ÈÈª xCOMPONENT  ?øÿx°	  ?øÿˆOöÿ0   4                     $MKRORIGIN          <   4    "             ÈÈª ÈÈª xCOMPONENT Ðüÿx°	 ÐüÿˆOöÿ=   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ˆOöÿHÐ  ?øÿHÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC  ?øÿHÐ  ?øÿ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC  ?øÿ˜# ¸/úÿ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ¸/úÿ˜# ¸/úÿHÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ¸/úÿHÐ ÐüÿHÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ÐüÿHÐ Ðüÿ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC Ðüÿ˜# èþÿ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC èþÿ˜# èþÿHÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC èþÿHÐ     HÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC     HÐ     ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC     ˜# ð ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ð ˜# ð HÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ð HÐ 0à HÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC 0à HÐ 0à ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC 0à ˜# HÐ ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC HÐ ˜# HÐ HÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC HÐ HÐ `À HÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC `À HÐ `À ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC `À ˜# x°	 ˜# =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC x°	 ˜# x°	 HÐ =   4    #    Àž  ÿÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC x°	 HÐ   HÐ =   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC ˆOöÿÐüÿ ?øÿÐüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC  ?øÿÐüÿ ?øÿ sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC  ?øÿ sþÿ¸/úÿ sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC ¸/úÿ sþÿ¸/úÿÐüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC ¸/úÿÐüÿÐüÿÐüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC ÐüÿÐüÿÐüÿ sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC Ðüÿ sþÿèþÿ sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC èþÿ sþÿèþÿÐüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC èþÿÐüÿ    Ðüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC     Ðüÿ     sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC      sþÿð  sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC ð  sþÿð Ðüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC ð Ðüÿ0à Ðüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC 0à Ðüÿ0à  sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC 0à  sþÿHÐ  sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC HÐ  sþÿHÐ Ðüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC HÐ Ðüÿ`À Ðüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC `À Ðüÿ`À  sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC `À  sþÿx°	  sþÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC x°	  sþÿx°	 Ðüÿ=   4    #    Àž  ÿ   ÿÿÿ ÿÿÿ x2D GRAPHIC x°	 Ðüÿ  Ðüÿ=   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC À²öÿ¨) ˆOöÿàŒ =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC À²öÿ¨)  ?øÿø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC  ?øÿø| €Ìùÿ¨) =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC €Ìùÿ¨) `Yûÿø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC `Yûÿø| @æüÿ¨) =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC @æüÿ¨)  sþÿø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC  sþÿø|     ¨) =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC     ¨) àŒ ø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC àŒ ø| À ¨) =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC À ¨)  ¦ ø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC  ¦ ø| €3 ¨) =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC €3 ¨) `À ø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC `À ø| @M	 ¨) =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC @M	 ¨)  Ú
+ ø| =   4    #    Àž    ÿ ÿÿÿ ÿÿÿ x2D GRAPHIC  Ú
+ ø|   PS <   4    "             ÈÈª ÈÈª xCOMPONENT ˆOöÿ          M   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ˆOöÿùÿˆOöÿùÿY¦öÿ€Ìùÿø÷ÿ€ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ø÷ÿ€Ìùÿ—…÷ÿ€ÌùÿhÜ÷ÿùÿhÜ÷ÿùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC hÜ÷ÿùÿhÜ÷ÿùÿ93øÿ ?øÿØ¢øÿ ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC Ø¢øÿ ?øÿwùÿ ?øÿHiùÿùÿHiùÿùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC HiùÿùÿHiùÿùÿÀùÿ€Ìùÿ¸/úÿ€ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ¸/úÿ€ÌùÿWŸúÿ€Ìùÿ(öúÿùÿ(öúÿùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC (öúÿùÿ(öúÿùÿùLûÿ ?øÿ˜¼ûÿ ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ˜¼ûÿ ?øÿ7,üÿ ?øÿƒüÿùÿƒüÿùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ƒüÿùÿƒüÿùÿÙÙüÿ€ÌùÿxIýÿ€ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC xIýÿ€Ìùÿ¹ýÿ€ÌùÿèþÿùÿèþÿùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC èþÿùÿèþÿùÿ¹fþÿ ?øÿXÖþÿ ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC XÖþÿ ?øÿ÷Eÿÿ ?øÿÈœÿÿùÿÈœÿÿùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ÈœÿÿùÿÈœÿÿùÿ™óÿÿ€Ìùÿ8c  €ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC 8c  €Ìùÿ×Ò  €Ìùÿ¨) ùÿ¨) ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ¨) ùÿ¨) ùÿy€  ?øÿð  ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ð  ?øÿ·_  ?øÿˆ¶ ùÿˆ¶ ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ˆ¶ ùÿˆ¶ ùÿY €Ìùÿø| €ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ø| €Ìùÿ—ì €ÌùÿhC ùÿhC ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC hC ùÿhC ùÿ9š  ?øÿØ	  ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC Ø	  ?øÿwy  ?øÿHÐ ùÿHÐ ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC HÐ ùÿHÐ ùÿ' €Ìùÿ¸– €ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ¸– €ÌùÿW €Ìùÿ(] ùÿ(] ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC (] ùÿ(] ùÿù³  ?øÿ˜#  ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ˜#  ?øÿ7“  ?øÿê ùÿê ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC ê ùÿê ùÿÙ@	 €Ìùÿx°	 €ÌùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC x°	 €Ìùÿ 
+ €Ìùÿèv
+ ùÿèv
+ ùÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC èv
+ ùÿèv
+ ùÿ¹Í
+  ?øÿX=  ?øÿM   D   #    Àž   ÿ  ÿÿÿ ÿÿÿ x2D GRAPHIC X=  ?øÿ  ùÿX=  ?øÿ  ùÿ  Ÿìÿ      $PINDEFAULT A    Ÿìÿ0à     $PINDEFAULT B    ŸìÿÐüÿ    $PINDEFAULT C    Ÿìÿp_ôÿ    $PINDEFAULT D  /  {*DEVICE}
+{ACTIVE=DSO,0,DLL}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model",READONLY STRING}
+{TRIGAUTO="TRIGAUTO",HIDDEN STRING}
+{TRIGSRC="TRIGSRC",HIDDEN STRING}
+{TRIGEDGE="TRIGEDGE",HIDDEN STRING}
+{TRIGACDC="TRIGACDC",HIDDEN STRING}
+{TRIGLEVEL="TRIGLEVEL",HIDDEN STRING}
+{TRIGDELAY="TRIGDELAY",HIDDEN STRING}
+{HORIZSRC="HORIZSRC",HIDDEN STRING}
+{HORIZVAL="HORIZVAL",HIDDEN STRING}
+{HORIZPOS="HORIZPOS",HIDDEN STRING}
+{CHAINV="CHAINV",HIDDEN STRING}
+{CHASUM="CHASUM",HIDDEN STRING}
+{CHAACDC="CHAACDC",HIDDEN STRING}
+{CHAVAL="CHAVAL",HIDDEN STRING}
+{CHAPOS="CHAPOS",HIDDEN STRING}
+{CHBINV="CHBINV",HIDDEN STRING}
+{CHBACDC="CHBACDC",HIDDEN STRING}
+{CHBVAL="CHBVAL",HIDDEN STRING}
+{CHBPOS="CHBPOS",HIDDEN STRING}
+{CHCINV="CHCINV",HIDDEN STRING}
+{CHCSUM="CHCSUM",HIDDEN STRING}
+{CHCACDC="CHCACDC",HIDDEN STRING}
+{CHCVAL="CHCVAL",HIDDEN STRING}
+{CHCPOS="CHCPOS",HIDDEN STRING}
+{CHDINV="CHDINV",HIDDEN STRING}
+{CHDACDC="CHDACDC",HIDDEN STRING}
+{CHDVAL="CHDVAL",HIDDEN STRING}
+{CHDPOS="CHDPOS",HIDDEN STRING}
+{PACKAGE="PCB Package",PACKAGE,0}
+{*INDEX}
+{CAT=Virtual Instruments}
+{DESC=Digital Storage Oscilloscope}
+{SUBCAT=}
+{MFR=}
+{*COMPONENT}
+{MODDLL=DSO.DLL}
+{PRIMITIVE=ANALOG}
+{TRIGAUTO=TRUE}
+{TRIGSRC=0}
+{TRIGEDGE=0}
+{TRIGACDC=1}
+{TRIGLEVEL=0}
+{TRIGDELAY=0}
+{HORIZSRC=0}
+{HORIZVAL=1.e-003}
+{HORIZPOS=0}
+{CHAINV=FALSE}
+{CHASUM=FALSE}
+{CHAACDC=0}
+{CHAVAL=5.}
+{CHAPOS=120}
+{CHBINV=FALSE}
+{CHBACDC=0}
+{CHBVAL=5.}
+{CHBPOS=40}
+{CHCINV=FALSE}
+{CHCSUM=FALSE}
+{CHCACDC=0}
+{CHCVAL=5.}
+{CHCPOS=-40}
+{CHDINV=FALSE}
+{CHDACDC=0}
+{CHDVAL=5.}
+{CHDPOS=-120}
+{PACKAGE=NULL}
+ $IPATTERN GENERATORÑ•ƒF³  ½       ¼  S      @   8   "    Àž  €    ÈÈª ÈÈª COMPONENT     ð]Õÿ    0ãA ¢* 0   4                     $MKRORIGIN          @   8   "    Àž  €€€  ¾¾¾ ÈÈª kCOMPONENT Ô  ËÚÿ    àÁ& € @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Àµ4 Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Àµ4  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Àµ4 ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Àµ4 ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Àµ4 kæÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Àµ4 `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Àµ4 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Àµ4  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Õ0 Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Õ0  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Õ0 ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Õ0 ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Õ0 kæÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Õ0 `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Õ0 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Õ0  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT `õ, Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT `õ,  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT `õ, ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT `õ, ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT `õ, kæÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT `õ, `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT `õ, 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT `õ,  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT 0) Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT 0)  òÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT 0) ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT 0) ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT 0) kæÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT 0) `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT 0) 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT 0)  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT  5% Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  5%  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  5% ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  5% ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT  5% kæÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT  5% `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  5% 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT  5%  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT ÐT! Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT ÐT!  òÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT ÐT! ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT ÐT! ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT ÐT! kæÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT ÐT! `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT ÐT! 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT ÐT!  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT  t  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t kæÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT  t  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT p” Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT p”  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT p” ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT p” ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT p” kæÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT p” `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT p” 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT p”  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT @´ Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT @´  òÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT @´ ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT @´ ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT @´ kæÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT @´ `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT @´ 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT @´  ËÚÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Ô Pìõÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Ô  òÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Ô ð+îÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Ô ÀKêÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Ô kæÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Ô `‹âÿ    0à 0à @   8   "    Àž  ÀÀÀ  ÿÿÿ ÈÈª kCOMPONENT Ô 0«Þÿ    0à 0à @   8   "    Àž  ÀÀÀ      ÈÈª kCOMPONENT Ô  ËÚÿ    0à 0à       @ðÿ    $PINDEFAULT OE    0ãA Ðüÿ   $PINBUS B[0..7]    0ãA p_ôÿ   $PINDEFAULT Q0    0ãA @ðÿ   $PINDEFAULT Q1    0ãA Ÿìÿ   $PINDEFAULT Q2    0ãA à¾èÿ   $PINDEFAULT Q3    0ãA °Þäÿ   $PINDEFAULT Q4    0ãA €þàÿ   $PINDEFAULT Q5    0ãA PÝÿ   $PINDEFAULT Q6    0ãA  >Ùÿ   $PINDEFAULT Q7         >Ùÿ    $PINDEFAULT CASCADE        Ðüÿ    $PINDEFAULT CLKIN         ?øÿ    $PINDEFAULT HOLD        p_ôÿ    $PINDEFAULT TRIG        PÝÿ    $PINDEFAULT CLKOUT  ò  {*DEVICE}
+{ACTIVE=PATTGEN,0,DLL}
+{HELP=INSTRUMENTS>POPUP,504}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDATA="",HIDDEN STRING}
+{MODDLL="VSM Model DLL",READONLY STRING}
+{CLOCKRATE="Clock Rate",STRING}
+{TRIGGERRATE="Reset Rate",STRING}
+{CLOCKMODE="Clock Mode",KWDLIST,3,0="Internal",1="External Pos Edge",2="External Neg Edge"}
+{TRIGGERMODE="Reset Mode",KWDLIST,5,0="Internal",1="Async External Pos Edge",2="Sync External Pos Edge",3="Async External Neg Edge",4="Sync External Neg Edge"}
+{PERIODSEL="Period Selected",HIDDEN INT}
+{CLOCKOUTSEL="Clockout Enabled in Internal Mode",YESNO}
+{OUTPUTMODE="Output Configuration",KWDLIST,3,0="Output to Both Pins and Bus",1="Output to Pins Only",2="Output to Bus Only"}
+{PROGRAM="Pattern Generator Script",FILENAME,FALSE,,Pattern Generator Script/*.PTN}
+{*INDEX}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDATA=1024,0}
+{MODDLL=PATTGEN.DLL}
+{CLOCKRATE=1.200kHz}
+{TRIGGERRATE=500.0mHz}
+{CLOCKOUTSEL=0}
+{TRIGGERMODE=0}
+{CLOCKMODE=0}
+{OUTPUTMODE=0}
+{PACKAGE=NULL}
+ $ISIGNAL GENERATORÑ•ƒFð         ‚        @   8   "    Àž  €    ÈÈª ÈÈª wCOMPONENT @ðÿp_ôÿ    €  A 8   0   "    `O       ÿ   ÈÈª aCOMPONENT  ?øÿø| HÐ L   D   "    Àž  €    ÈÈª ÈÈª COMPONENT ð `À ð n× "É x°	 0à x°	 L   D   "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ `À HÐ n× =÷ x°	 0à x°	 L   D   "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ `À HÐ S© R© HÐ `À HÐ L   D   "    Àž  €    ÈÈª ÈÈª COMPONENT x°	 `À x°	 S© m× HÐ `À HÐ <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT ð pÆ  ð  ¦ <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT ð  ¦ HÐ pÆ  <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ pÆ  HÐ  ¦ <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ  ¦ x°	 pÆ  <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT ð @æüÿ0à XÖþÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT 0à XÖþÿ`À (öúÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT `À (öúÿx°	 @æüÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT ð ˆOöÿð ¸/úÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT ð ¸/úÿHÐ ¸/úÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ ¸/úÿHÐ ˆOöÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ ˆOöÿx°	 ˆOöÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT x°	 ˆOöÿx°	 ¸/úÿ<   4    "    w  ÀÀÀ  ÈÈª ÈÈª xCOMPONENT  ?øÿ@M	  ?øÿÀ 8   0   "    `O         À ÈÈª `COMPONENT  ™óÿð’úÿëù <   4    "    w  ÀÀÀ  ÈÈª ÈÈª xCOMPONENT ¨Âôÿ˜¼ûÿ ™óÿð’úÿ8   0   "    `O         À ÈÈª `COMPONENT @æüÿð’úÿëù <   4    "    w  ÀÀÀ  ÈÈª ÈÈª xCOMPONENT èþÿ˜¼ûÿ@æüÿð’úÿk   c   "    Àž  €    ÈÈª ÈÈª COMPONENT p_ôÿˆOöÿ    
+   ð À Arial                              AM k   c   "    Àž  €    ÈÈª ÈÈª COMPONENT ÐüÿˆOöÿ    
+   ð À Arial                              FM j   b   "    Àž  €    ÈÈª ÈÈª COMPONENT ¨ `À     
+   À À Arial                              + j   b   "    Àž  €    ÈÈª ÈÈª COMPONENT ¨  ?øÿ    
+   À À Arial                              - 0   4                     $MKRORIGIN          
+  p_ôÿp_ôÿ„  $PINSHORT A  
+  Ðüÿp_ôÿ„  $PINSHORT F  
+  À€ `À øø  $PINSHORT +  
+  À€  ?øÿøø  $PINSHORT -  æ   {*DEVICE}
+{ACTIVE=SIGGEN,0,DLL}
+{HELP=INSTRUMENTS>POPUP,503}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model",READONLY STRING}
+{*INDEX}
+{*COMPONENT}
+{MODDLL=SIGGEN.DLL}
+{PRIMITIVE=ANALOG}
+{PACKAGE=NULL}
+ $ISPI DEBUGGERÑ•ƒF)  à       (        @   8   "    Àž  €    ÈÈª ÈÈª COMPONENT à¾èÿp_ôÿ    àÁ&  A @   8   "    Àž    €  ÿÿÿ ÈÈª bCOMPONENT ˆOöÿ¸/úÿ    èÝ àó 0   4                     $MKRORIGIN          l   d   "    Àž    À  ÈÈª ÈÈª {COMPONENT àŒ ¨)     
+ ¨ À Arial                              SPI   à¾èÿ`À     $PINDEFAULT DIN    à¾èÿ0à     $PINDEFAULT DOUT    à¾èÿ        $PINDEFAULT SCK    à¾èÿÐüÿ    $PINDEFAULT $SS$    à¾èÿ ?øÿ    $PINDEFAULT TRIG  E  {*DEVICE}
+{ACTIVE=SPI_DEBUG,0,DLL}
+{HELP=INSTRUMENTS>POPUP,509}
+{*PROPDEFS}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{MODDLL="VSM Model DLL",HIDDEN STRING}
+{MODE="SPI Mode",KWDLIST,3,Monitor,Master,Slave}
+{CLOCKFREQ="Master clock frequency in Hz",FLOAT,PNZ}
+{IDLESTATE="SCK Idle state is",HILOW}
+{SAMPLEEDGE="Sampling edge",KWDLIST,2,Idle to active,Active to idle}
+{BITORDER="Bit order",KWDLIST,2,MSB first,LSB first}
+{WORDLENGTH="Word length",ADVANCED INT,1,16}
+{STOPONEMPTY="Stop on output buffer empty",BOOL}
+{TIMEPREC="Time display precision",ADVANCED INT,1,12}
+{WRAPLENGTH="New line after",ADVANCED INT,1,64}
+{AUTOLOAD="Queue stored sequences at startup",ADVANCED YESNO}
+{SEQUENCE_FILE="Sequence file",ADVANCED FILENAME,FALSE,,Text file/*.txt}
+{LOOPBACK="Loopback mode",ADVANCED BOOL}
+{*INDEX}
+{CAT=Miscellaneous}
+{SUBCAT=}
+{MFR=}
+{DESC=SPI Protocol Debugger}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=spidebug.dll}
+{AUTOLOAD=0}
+{MODE=Monitor}
+{CLOCKFREQ=1000000}
+{IDLESTATE=0}
+{SAMPLEEDGE=Idle to active}
+{BITORDER=MSB first}
+{WORDLENGTH=8}
+{STOPONEMPTY=1}
+{LOOPBACK=0}
+{PACKAGE=NULL}
+ $IVIRTUAL TERMINALÑ•ƒFÙ         ü         @   8   "    Àž  €    ÈÈª ÈÈª wCOMPONENT °Þäÿ@ðÿ    @‚. € @   8   "    8c  €        ÈÈª mCOMPONENT @ðÿp_ôÿ    €  A 0   4                     $MKRORIGIN          @   8   "   Àž  €     ÿ  ÈÈª fCOMPONENT Xoòÿ`À     ð ð   °Þäÿ      $PINDEFAULT RXD    °ÞäÿÐüÿ    $PINDEFAULT RTS    °Þäÿ0à     $PINDEFAULT TXD    °Þäÿp_ôÿ    $PINDEFAULT CTS  E  {*DEVICE}
+{HELP=INSTRUMENTS>POPUP,506}
+{*PROPDEFS}
+{PRIMITIVE="Simulator Primitive",HIDDEN STRING}
+{MODDLL="VSM Model",HIDDEN STRING}
+{BAUDRATE="Baud Rate",KWDEDIT,9,110,300,1200,2400,4800,9600,19200,38400,57600}
+{DATABITS="Data Bits",KWDLIST,2,7,8}
+{PARITY="Parity",KWDLIST,3,NONE,EVEN,ODD}
+{STOPBITS="Stop Bits",KWDLIST,2,1,2}
+{XONXOFF="Send XON/XOFF",YESNO}
+{SIGPOL="RX/TX Polarity",ADVANCED KWDLIST,2,0="Normal",1="Inverted"}
+{CTLPOL="RTS/CTS Polarity",ADVANCED KWDLIST,2,0="Normal",1="Inverted"}
+{PACKAGE="PCB Package",PACKAGE}
+{TRACE="Trace Events",ADVANCED TRACEMODE}
+{*INDEX}
+{CAT=Virtual Instruments}
+{SUBCAT=}
+{MFR=}
+{DESC=Virtual RS232 / teletype terminal.}
+{*COMPONENT}
+{PRIMITIVE=DIGITAL}
+{MODDLL=VTERM.DLL}
+{BAUDRATE=9600}
+{DATABITS=8}
+{PARITY=NONE}
+{STOPBITS=1}
+{XONXOFF=0}
+{SIGPOL=0}
+{CTLPOL=0}
+{PACKAGE=NULL}
+{TRACE=1}
+ 
+74F164.IECÅ¨I         6        Ä   `   "    Àž  €    ÈÈª ÈÈª COMPONENT        à»ªÿ€       € à»ªÿ    à»ªÿ    Ÿìÿ0à Ÿìÿ0à @ðÿ    @ðÿ        €     € @ðÿP! @ðÿP! Ÿìÿ€ Ÿìÿ€ à»ªÿ 0   4                     $MKRORIGIN          <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT     @|²ÿ€ @|²ÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT €  <ºÿ     <ºÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT      ýÁÿ€  ýÁÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT € `½Éÿ    `½Éÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT     À}Ñÿ€ À}Ñÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT €  >Ùÿ     >Ùÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT     €þàÿ€ €þàÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT   Ÿìÿ  €þàÿm   e   "    Àž  €    ÈÈª ÈÈª COMPONENT À€ èþÿ    
+  0à À Default Font                        SRG8 j   b   "    Àž  €    ÈÈª ÈÈª COMPONENT ð Ðüÿ      0à À Default Font                        R n   f   "    Àž  €    ÈÈª ÈÈª COMPONENT 0à p_ôÿ      0à À Default Font                        C1/-> j   b   "    Àž  €    ÈÈª ÈÈª COMPONENT HÐ ÈÎæÿ    
+   ¦ 0à Default Font                        & k   c   "    Àž  €    ÈÈª ÈÈª COMPONENT Q ÈÎæÿ    
+  0à À Default Font                        1D <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT 0à ŸìÿP! Ÿìÿ
+      à¾èÿ    $PINDEFAULT A 1 
+  € à¾èÿ   $PINDEFAULT Q0 3 
+      °Þäÿ    $PINDEFAULT B 2 
+  € PÝÿ   $PINDEFAULT Q1 4 
+  € ð]Õÿ   $PINDEFAULT Q2 5 
+  € Íÿ   $PINDEFAULT Q3 6 
+  € 0ÝÅÿ   $PINDEFAULT Q4 10 
+      p_ôÿ    $PINIECPOSCLK CLK 8 
+  € Ð¾ÿ   $PINDEFAULT Q5 11 
+  € p\¶ÿ   $PINDEFAULT Q6 12 
+      Ðüÿ    $PINIECNEGIP MR 9 
+  € œ®ÿ   $PINDEFAULT Q7 13    À€     |ü $PINDEFAULT VCC 14    À€ à»ªÿtõ  $PINDEFAULT GND 7 ø   {*DEVICE}
+PREFIX=U
+{*PROPDEFS}
+{MODFILE="LISA Model File",READONLY STRING}
+{PACKAGE="PCB Package",PACKAGE,2,DIL14,SO14}
+{*COMPONENT}
+{PACKAGE=DIL14}
+{*INDEX}
+{DESC=8-Bit Parallel-Out Serial Shift Registers}
+{CAT=TTL 74F series}
+{SUBCAT=Registers}
+ CRYSTAL ]IA  >       ô         <   4    "    Àž  €    ÈÈª ÈÈª COMPONENT ÐüÿHÐ Ðüÿ¸/úÿ<   4    "    Àž  €    ÈÈª ÈÈª COMPONENT 0à HÐ 0à ¸/úÿ@   8   "    Àž  €    ÈÈª ÈÈª COMPONENT èþÿ0à     0à  ?øÿ0   4                     $MKRORIGIN           
+  Ðüÿ        $PINSHORT 1   
+  0à        $PINSHORT 2  ÿ   {*DEVICE}
+PREFIX=X
+{*PROPDEFS}
+{MODFILE="LISA Model File",HIDDEN STRING}
+{FREQ="Frequency",FLOAT,PNZ}
+PACKAGE=PCB Package,PACKAGE,1,XTAL18
+{*INDEX}
+{CAT=Miscellaneous}
+{DESC=Quartz crystal}
+{*COMPONENT}
+{MODFILE=CRYSTAL.MDF}
+{FREQ=1MHz}
+{PACKAGE=XTAL18}
+ MATRIX-8X8-RED'©mJ  &      |  B      @   8   "    `O  €        ÈÈª eCOMPONENT èþÿPÝÿ    € € 8   0   "        ‡  ‡ ÈÈª `COMPONENT     ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT     hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT 0à hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT `À hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT   hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT À€ hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT ð` hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT  A hßÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! ¸/úÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! ˆOöÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! Xoòÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! (îÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! ø®êÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! ÈÎæÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! ˜îâÿ¨) 8   0   "        ‡  ‡ ÈÈª `COMPONENT P! hßÿ¨) 0   4                     $MKRORIGIN          
+      PÝÿ„  $PINSHORT A  
+  0à PÝÿ„  $PINSHORT B  
+  `À PÝÿ„  $PINSHORT C  
+    PÝÿ„  $PINSHORT D  
+  À€ PÝÿ„  $PINSHORT E  
+  ð` PÝÿ„  $PINSHORT F  
+   A PÝÿ„  $PINSHORT G  
+  P! PÝÿ„  $PINSHORT H  
+      ÐüÿŒ
+  $PINSHORT 1  
+  0à ÐüÿŒ
+  $PINSHORT 2  
+  `À ÐüÿŒ
+  $PINSHORT 3  
+    ÐüÿŒ
+  $PINSHORT 4  
+  À€ ÐüÿŒ
+  $PINSHORT 5  
+  ð` ÐüÿŒ
+  $PINSHORT 6  
+   A ÐüÿŒ
+  $PINSHORT 7  
+  P! Ðüÿ„ $PINSHORT 8  LEDMATRIX_R_C |         0   4                     $MKRORIGIN          @   8   "   Àž  €        ÈÈª `COMPONENT     °Þäÿ    0à P! LEDMATRIX_R_0_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     ¸/úÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_0_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     ¸/úÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_1_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     ˆOöÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_1_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     ˆOöÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_2_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     Xoòÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_2_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     Xoòÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_3_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     (îÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_3_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     (îÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_4_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     ø®êÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_4_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     ø®êÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_5_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     ÈÎæÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_5_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     ÈÎæÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_6_0 t         8   0   "        ‡  ‡ ÈÈª `COMPONENT     ˜îâÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_6_1 t         8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     ˜îâÿ¨) 0   4                     $MKRORIGIN          LEDMATRIX_R_7_0 t         0   4                     $MKRORIGIN          8   0   "        ‡  ‡ ÈÈª `COMPONENT     hßÿ¨) LEDMATRIX_R_7_1 t         0   4                     $MKRORIGIN          8   0   "        ÿ++  ÿ++ ÈÈª `COMPONENT     hßÿ¨) ì  {*DEVICE}
+{ACTIVE=LEDMATRIX_R,8,BITWISE,DLL}
+{HELP=DISPLAYS>POPUP,1}
+{*PROPDEFS}
+{MODDLL="VSM Model",READONLY STRING}
+{PRIMITIVE="Primitive Type",HIDDEN STRING}
+{INVERT="INVERT",HIDDEN STRING}
+{PACKAGE=PCB Package,HIDDEN PACKAGE}
+{TTRIGMIN="Minimum Trigger Time",FLOAT,PNZ}
+{*INDEX}
+{CAT=Optoelectronics}
+{SUBCAT=Dot Matrix Displays}
+{DESC=8x8 Red LED Dot Matrix Display}
+{*COMPONENT}
+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{PACKAGE=NULL}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ 	PIC16F887j=MN    $     |         @   8   "    Àž  €    ÈÈª ÈÈª COMPONENT     à»ªÿ    £I  DU 0   4                     $MKRORIGIN                Ðüÿ    $PINDEFAULT RE3/$MCLR$/VPP 1       @ðÿ    $PINDEFAULT RA1/AN1/C12IN1- 3       Ÿìÿ    $PINDEFAULT RA2/AN2/VREF-/CVREF/C2IN+ 4       °Þäÿ    $PINDEFAULT RA4/T0CKI/C1OUT 6       €þàÿ    $PINDEFAULT RA5/AN4/SS/C2OUT 7       À}Ñÿ    $PINDEFAULT RB0/AN12/INT 33       Íÿ    $PINDEFAULT RB1/AN10/C12IN3- 34       `½Éÿ    $PINDEFAULT RB2/AN8 35        >Ùÿ    $PINDEFAULT RA7/OSC1/CLKIN 13       PÝÿ    $PINDEFAULT RA6/OSC2/CLKOUT 14   £I 0ÝÅÿ   $PINDEFAULT RD5/P1B 28   £I  ýÁÿ   $PINDEFAULT RD6/P1C 29   £I Ð¾ÿ   $PINDEFAULT RD7/P1D 30   £I Ÿìÿ   $PINDEFAULT RC4/SDI/SDA 23   £I à¾èÿ   $PINDEFAULT RC5/SDO 24   £I @ðÿ   $PINDEFAULT RC3/SCK/SCL 18   £I p_ôÿ   $PINDEFAULT RC2/P1A/CCP1 17   £I  ?øÿ   $PINDEFAULT RC1/T1OSI/CCP2 16   £I Ðüÿ   $PINDEFAULT RC0/T1OSO/T1CKI 15       p\¶ÿ    $PINDEFAULT RB7/ICSPDAT 40        <ºÿ    $PINDEFAULT RB6/ICSPCLK 39       Ð¾ÿ    $PINDEFAULT RB5/AN13/$T1G$ 38        ýÁÿ    $PINDEFAULT RB4/AN11 37   £I Íÿ   $PINDEFAULT RD3 22   £I À}Ñÿ   $PINDEFAULT RD2 21   £I ð]Õÿ   $PINDEFAULT RD1 20   £I  >Ùÿ   $PINDEFAULT RD0 19   £I €þàÿ   $PINDEFAULT RC7/RX/DT 26   £I °Þäÿ   $PINDEFAULT RC6/TX/CK 25   £I œ®ÿ   $PINDEFAULT RE2/AN7 10   £I @|²ÿ   $PINDEFAULT RE1/AN6 9   £I p\¶ÿ   $PINDEFAULT RE0/AN5 8       à¾èÿ    $PINDEFAULT RA3/AN3/VREF+/C1IN+ 5   £I `½Éÿ   $PINDEFAULT RD4 27       0ÝÅÿ    $PINDEFAULT RB3/AN9/PGM/C12IN2- 36       p_ôÿ    $PINDEFAULT RA0/AN0/ULPWU/C12IN0- 2 º  {*DEVICE}
+{PREFIX=U}
+{HELP=PIC16>POPUP,0}
+{DATA=pdfs/pic16/pic16f882-883-884-886-887.pdf}
+{*PROPDEFS}
+{PACKAGE="PCB Package",PACKAGE,3,DIL40,QFN65P800X800X100-45V2,QFP80P1200X1200X120-44}
+{TRACE_SETUP=Model Initialization,HIDDEN TRACEMODE}
+{TRACE_LOAD=Program Loader,HIDDEN TRACEMODE}
+{TRACE_CORE=Instruction Execution, HIDDEN TRACEMODE}
+{TRACE_MEMORY=Memory/SFR access events, HIDDEN TRACEMODE}
+{TRACE_RESET=Reset Events, HIDDEN TRACEMODE}
+{TRACE_SLEEP=Sleep/Wake Events, HIDDEN TRACEMODE}
+{TRACE_INTERRUPT=Interrupt Events, HIDDEN TRACEMODE}
+{TRACE_WDT=Watchdog Timer Module, HIDDEN TRACEMODE}
+{TRACE_TIMER0=Timer 0 Module, HIDDEN TRACEMODE}
+{TRACE_TIMER1=Timer 1 Module, HIDDEN TRACEMODE}
+{TRACE_TIMER2=Timer 2 Module, HIDDEN TRACEMODE}
+{TRACE_CCP1=CCP1 Module, HIDDEN TRACEMODE}
+{TRACE_CCP2=CCP2 Module, HIDDEN TRACEMODE}
+{TRACE_MSSP=MSSP Module, HIDDEN TRACEMODE}
+{TRACE_USART=USART Module, HIDDEN TRACEMODE}
+{TRACE_ADC=ADC Module, HIDDEN TRACEMODE}
+{TRACE_ACMP=ACMP Module, HIDDEN TRACEMODE}
+{TRACE_EEPROM=EEPROM Module, HIDDEN TRACEMODE}
+{TRACE_DEFAULT=Default Tracemode, HIDDEN TRACEMODE}
+{TRACE_ULWUM=ULWUM Module, HIDDEN TRACEMODE}
+{PRIMITIVE=Primitive Type,HIDDEN STRING}
+{MODDLL=VSM Model DLL,HIDDEN STRING}
+{MODDATA=Persistent Model Data,HIDDEN STRING}
+{ITFMOD=Interface Model,HIDDEN STRING}
+{CODEGEN=Default Build Tool,HIDDEN STRING}
+{PROGRAM=Program File,FILENAME,FALSE,,Program files/*.HEX;*.d39;*.bas;*.cof}
+{CLOCK=Processor Clock Frequency,FLOAT,PNZ}
+{CFGWORD=Program Configuration Word,INT,0,16383}
+{DBG_RANDOM_PMEM=Randomize Program Memory?,ADVANCED YESNO}
+{DBG_RANDOM_DMEM=Randomize Data Memory?,ADVANCED YESNO}
+{DBG_STARTUP_DELAY=Model PIC Start-up Delays?,ADVANCED YESNO}
+{DBG_WAKEUP_DELAY=Model PIC Wake-up Delays?,ADVANCED YESNO}
+{DBG_ADC_BREAK=Force ADC Breakpoint at Sample Time?,ADVANCED YESNO}
+{DBG_GENERATE_CLKOUT=Generate Q clock on CLKOUT Pin?,ADVANCED YESNO}
+{WDT_PERIOD=Watchdog Timer Period,ADVANCED FLOAT,PNZ}
+{ADC_RCCLOCK_PERIOD=ADC RC Clock Period,ADVANCED FLOAT,PNZ}
+{ADC_ACQUISITION_TIME=ADC Minimum Acquisition Time,ADVANCED FLOAT,PNZ}
+{ADC_SAMPLE_DELAY=ADC Sample Delay,ADVANCED FLOAT,PNZ}
+{EPR_WRITECODE_DELAY=Code EEPROM Write Delay,ADVANCED FLOAT,PNZ}
+{EPR_WRITEDATA_DELAY=Data EEPROM Write Delay,ADVANCED FLOAT,PNZ}
+{PORTTDLH=Port Pin Low-High Delay,ADVANCED FLOAT,POZ}
+{PORTTDHL=Port Pin High-Low Delay,ADVANCED FLOAT,POZ}
+{MODDATAFILE=Initial contents of EEPROM,ADVANCED FILENAME,FALSE,,Binary Image Files/*.BIN}
+{CFGWORD1=Program Configuration Word1,INT,0,65535}
+{RTS=Floating Resistance,HIDDEN FLOAT,PNZ}
+{TNOM=Temperature nominal value,ADVANCED STRING}
+{*INDEX}
+{CAT=Microprocessor ICs}
+{SUBCAT=PIC16 Family}
+{MFR=Microchip}
+CMOS Microcontrollers with
+{DESC=PIC16 Microcontroller (8kB code, 352B data, 256B EPROM, Ports A-E, 2xACMP, ECCP/CCP, 3xTimers, MSSP, EUSART, 14x10-bit ADC)}
+{*COMPONENT}
+{TRACE_DEFAULT=1}
+{RTS=10G}
+{TNOM=27}
+{PACKAGE=DIL40}
+
+
+{MODDLL=PIC16}
+{ITFMOD=PIC}
+{CLOCK=1MHz}
+{CODEGEN=MPASMWIN}
+{WDT_PERIOD=18m}
+{ADC_RCCLOCK_PERIOD=4u}
+{ADC_ACQUISITION_TIME=20u}
+{ADC_SAMPLE_DELAY=100n}
+{EPR_WRITEDATA_DELAY=10m}
+{EPR_WRITECODE_DELAY=10m}
+{PORTTDLH=0}
+{PORTTDHL=0}
+{DBG_GENERATE_CLKOUT=0}
+{DBG_STARTUP_DELAY=0}
+{DBG_WAKEUP_DELAY=0}
+{DBG_RANDOM_PMEM=0}
+{DBG_RANDOM_DMEM=0}
+{DBG_ADC_BREAK=0}
+{PRIMITIVE=DIGITAL,16887}
+{MODDATA=256,255}
+{CFGWORD=0x3FFF}
+{CFGWORD1=0xFFFF}
+*PINOUT DIL40
+{ELEMENTS=1}
+{PIN "RA0/AN0/ULPWU/C12IN0-" = 2}
+{PIN "RA1/AN1/C12IN1-" = 3}
+{PIN "RA2/AN2/VREF-/CVREF/C2IN+" = 4}
+{PIN "RA3/AN3/VREF+/C1IN+" = 5}
+{PIN "RA4/T0CKI/C1OUT" = 6}
+{PIN "RA5/AN4/SS/C2OUT" = 7}
+{PIN "RA6/OSC2/CLKOUT" = 14}
+{PIN "RA7/OSC1/CLKIN" = 13}
+{PIN "RB0/AN12/INT" = 33}
+{PIN "RB1/AN10/C12IN3-" = 34}
+{PIN "RB2/AN8" = 35}
+{PIN "RB3/AN9/PGM/C12IN2-" = 36}
+{PIN "RB4/AN11" = 37}
+{PIN "RB5/AN13/$T1G$" = 38}
+{PIN "RB6/ICSPCLK" = 39}
+{PIN "RB7/ICSPDAT" = 40}
+{PIN "RC0/T1OSO/T1CKI" = 15}
+{PIN "RC1/T1OSI/CCP2" = 16}
+{PIN "RC2/P1A/CCP1" = 17}
+{PIN "RC3/SCK/SCL" = 18}
+{PIN "RC4/SDI/SDA" = 23}
+{PIN "RC5/SDO" = 24}
+{PIN "RC6/TX/CK" = 25}
+{PIN "RC7/RX/DT" = 26}
+{PIN "RD0" = 19}
+{PIN "RD1" = 20}
+{PIN "RD2" = 21}
+{PIN "RD3" = 22}
+{PIN "RD4" = 27}
+{PIN "RD5/P1B" = 28}
+{PIN "RD6/P1C" = 29}
+{PIN "RD7/P1D" = 30}
+{PIN "RE0/AN5" = 8}
+{PIN "RE1/AN6" = 9}
+{PIN "RE2/AN7" = 10}
+{PIN "RE3/$MCLR$/VPP" = 1}
+{PP (VDD) = 11/32}
+{PP (VSS) = 12/31}
+{COMMON=VDD,VSS}
+
+*PINOUT QFN65P800X800X100-45V2
+{ELEMENTS=1}
+{PIN "RA0/AN0/ULPWU/C12IN0-" = 19}
+{PIN "RA1/AN1/C12IN1-" = 20}
+{PIN "RA2/AN2/VREF-/CVREF/C2IN+" = 21}
+{PIN "RA3/AN3/VREF+/C1IN+" = 22}
+{PIN "RA4/T0CKI/C1OUT" = 23}
+{PIN "RA5/AN4/SS/C2OUT" = 24}
+{PIN "RA6/OSC2/CLKOUT" = 33}
+{PIN "RA7/OSC1/CLKIN" = 32}
+{PIN "RB0/AN12/INT" = 9}
+{PIN "RB1/AN10/C12IN3-" = 10}
+{PIN "RB2/AN8" = 11}
+{PIN "RB3/AN9/PGM/C12IN2-" = 12}
+{PIN "RB4/AN11" = 14}
+{PIN "RB5/AN13/$T1G$" = 15}
+{PIN "RB6/ICSPCLK" = 16}
+{PIN "RB7/ICSPDAT" = 17}
+{PIN "RC0/T1OSO/T1CKI" = 34}
+{PIN "RC1/T1OSI/CCP2" = 35}
+{PIN "RC2/P1A/CCP1" = 36}
+{PIN "RC3/SCK/SCL" = 37}
+{PIN "RC4/SDI/SDA" = 42}
+{PIN "RC5/SDO" = 43}
+{PIN "RC6/TX/CK" = 44}
+{PIN "RC7/RX/DT" = 1}
+{PIN "RD0" = 38}
+{PIN "RD1" = 39}
+{PIN "RD2" = 40}
+{PIN "RD3" = 41}
+{PIN "RD4" = 2}
+{PIN "RD5/P1B" = 3}
+{PIN "RD6/P1C" = 4}
+{PIN "RD7/P1D" = 5}
+{PIN "RE0/AN5" = 25}
+{PIN "RE1/AN6" = 26}
+{PIN "RE2/AN7" = 27}
+{PIN "RE3/$MCLR$/VPP" = 18}
+{PP (VDD) = 7/8/28}
+{PP (VSS) = 6/30/31}
+{NC=13,29}
+{COMMON=VDD,VSS}
+
+*PINOUT QFP80P1200X1200X120-44
+{ELEMENTS=1}
+{PIN "RA0/AN0/ULPWU/C12IN0-" = 19}
+{PIN "RA1/AN1/C12IN1-" = 20}
+{PIN "RA2/AN2/VREF-/CVREF/C2IN+" = 21}
+{PIN "RA3/AN3/VREF+/C1IN+" = 22}
+{PIN "RA4/T0CKI/C1OUT" = 23}
+{PIN "RA5/AN4/SS/C2OUT" = 24}
+{PIN "RA6/OSC2/CLKOUT" = 31}
+{PIN "RA7/OSC1/CLKIN" = 30}
+{PIN "RB0/AN12/INT" = 8}
+{PIN "RB1/AN10/C12IN3-" = 9}
+{PIN "RB2/AN8" = 10}
+{PIN "RB3/AN9/PGM/C12IN2-" = 11}
+{PIN "RB4/AN11" = 14}
+{PIN "RB5/AN13/$T1G$" = 15}
+{PIN "RB6/ICSPCLK" = 16}
+{PIN "RB7/ICSPDAT" = 17}
+{PIN "RC0/T1OSO/T1CKI" = 32}
+{PIN "RC1/T1OSI/CCP2" = 35}
+{PIN "RC2/P1A/CCP1" = 36}
+{PIN "RC3/SCK/SCL" = 37}
+{PIN "RC4/SDI/SDA" = 42}
+{PIN "RC5/SDO" = 43}
+{PIN "RC6/TX/CK" = 44}
+{PIN "RC7/RX/DT" = 1}
+{PIN "RD0" = 38}
+{PIN "RD1" = 39}
+{PIN "RD2" = 40}
+{PIN "RD3" = 41}
+{PIN "RD4" = 2}
+{PIN "RD5/P1B" = 3}
+{PIN "RD6/P1C" = 4}
+{PIN "RD7/P1D" = 5}
+{PIN "RE0/AN5" = 25}
+{PIN "RE1/AN6" = 26}
+{PIN "RE2/AN7" = 27}
+{PIN "RE3/$MCLR$/VPP" = 18}
+{PP (VDD) = 7/28}
+{PP (VSS) = 6/29}
+{NC=12,13,33,34}
+{COMMON=VDD,VSS}
+  + ISIS CIRCUIT FILE &    <Ø`ç-  OBJECT DATA  ÿU10Kÿ.åÿ      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ	PIC16F8870Kÿ0Kÿ     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ	PIC16F8870Kÿ k‹ÿ     1   0à À       ÿ Default Font SUBCKT NAME     ÿ&{TRACE_DEFAULT=1}
+{RTS=10G}
+{TNOM=27}
+0Kÿ k‹ÿ     0   0à À      ÿDefault Font PROPERTIES     ê  {PACKAGE=DIL40}
+{TRACE_DEFAULT=1}
+{PRIMITIVE=DIGITAL,16887}
+{MODDLL=PIC16}
+{MODDATA=256,255}
+{ITFMOD=PIC}
+{CODEGEN=MPASMWIN}
+{CLOCK=1MHz}
+{CFGWORD=0x3FFF}
+{DBG_RANDOM_PMEM=0}
+{DBG_RANDOM_DMEM=0}
+{DBG_STARTUP_DELAY=0}
+{DBG_WAKEUP_DELAY=0}
+{DBG_ADC_BREAK=0}
+{DBG_GENERATE_CLKOUT=0}
+{WDT_PERIOD=18m}
+{ADC_RCCLOCK_PERIOD=4u}
+{ADC_ACQUISITION_TIME=20u}
+{ADC_SAMPLE_DELAY=100n}
+{EPR_WRITECODE_DELAY=10m}
+{EPR_WRITEDATA_DELAY=10m}
+{PORTTDLH=0}
+{PORTTDHL=0}
+{CFGWORD1=0xFFFF}
+{RTS=10G}
+{TNOM=27}
+
+
+$ 	PIC16F887šÿ°Þäÿ                                                                                                                                                            ÿ ëE @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ ëE ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDëE È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+ëE È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-REDàÁ& À€                                                                               ÿ ìd @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ ìd ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDìd È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+ìd È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-RED`ÃE À€                                                                              ÿ îƒ @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ îƒ ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDîƒ È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+îƒ È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-REDàÄd À€                                                                              ÿ ï¢ @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ ï¢ ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDï¢ È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+ï¢ È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-RED`Æƒ À€                                                                              ÿ ñÁ @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ ñÁ ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDñÁ È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+ñÁ È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-REDàÇ¢ À€     	                                                                         ÿ é& @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ é& ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDé& È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+é& È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-RED`À À€     
+                                                                         ÿ òà @È      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ òà ø÷      5   0à À      ÿDefault Font COMPONENT VALUE     ÿMATRIX-8X8-REDòà È      1   0à À       ÿ Default Font SUBCKT NAME     ÿ+{MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+òà È      0   0à À      ÿDefault Font PROPERTIES     [   {MODDLL=LEDMPX}
+{PRIMITIVE=DIGITAL,LEDMPX}
+{INVERT=A,B,C,D,E,F,G,H}
+{TTRIGMIN=1ms}
+
+
+
+
+
+
+
+
+ MATRIX-8X8-RED`ÉÁ À€                                                                               ÿU2€Tºý€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164€Tºý ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164€Tºýpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+€Tºýpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECà£ºý S‹              «@ Â9 Ý@ …: H; < Î< ¥A ‘= Š> 4B ¸8         €æðý0òwE9             €æðý0ï9¸8 T>              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC4 &éý>:      0   0à À      ÿDefault Font WIRE LABEL      Àeáý0ï9€æðý0ï9€æðý tE9 Â9 O:     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿC[0..7]Píýü|      0   0à À      ÿDefault Font WIRE LABEL      €æðý0òw€æðý t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC0 &éý`at      0   0à À      ÿDefault Font WIRE LABEL      Àeáý t€æðý t€æðýpqhO: …: ;     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý t€æðýpqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC1 &éýÐÀh      0   0à À      ÿDefault Font WIRE LABEL      Àeáýpqh€æðýpqh€æðý±`; H; Õ;     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýpqh€æðý±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC2 &éýp a      0   0à À      ÿDefault Font WIRE LABEL      Àeáý±`€æðý±`€æðý°ðXÕ; < ˜<     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý±`€æðý°ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC3 &éý@Y      0   0à À      ÿDefault Font WIRE LABEL      Àeáý°ðX€æðý°ðX€æðýP0Q˜< Î< [=     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý°ðX€æðýP0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC7 &éý°Q      0   0à À      ÿDefault Font WIRE LABEL      ÀeáýP0Q€æðýP0Q€æðýðoI[= ‘= >     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýP0Q€æðýðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC6 &éýP¿I      0   0à À      ÿDefault Font WIRE LABEL      ÀeáýðoI€æðýðoI€æðý¯A> T> Š>     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýðoI€æðý¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý0ï9€æðý¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC5 &éýðþA      0   0à À      ÿDefault Font WIRE LABEL      Àeáý¯A€æðý¯A8 ;›ÿ       	M56258E09$DCGENÿVCC0A”ÿØp     5   0à À   À  ÿDefault Font GENERATOR LABEL     ÿ1{VALUE=5}
+{MANUALEDITS=FALSE}
+{HIDDENPROPS=TRUE}
+0A”ÿÀ€     0   0à À      ÿDefault Font PROPERTIES     1     @           ;›ÿ    @                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÀëšÿ0à „    0   0à À      ÿDefault Font WIRE LABEL       ;›ÿ   ;›ÿ    ‚Ÿý tA             P¯ý t«@ Ý@ A          Àž   @  ÿÿÿ ÿÿÿ WIRE    €ã²ý tP¯ý t     Àž   @  ÿÿÿ ÿÿÿ WIRE    €ã²ýÐ1pP¯ýÐ1pP¯ý t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCC #«ý`at      0   0à À      ÿDefault Font WIRE LABEL      ‚Ÿý tP¯ý t‚Ÿý²¥A                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLKðB§ýð€      0   0à À      ÿDefault Font WIRE LABEL      €ã²ý²‚Ÿý²‚Ÿýðr‡4B                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD0ðB§ýPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      €ã²ýðr‡‚Ÿýðr‡ ÿU309þ€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F16409þ ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F16409þpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+09þpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECˆþ S‹              àJ mE K 0F óF ·G {H ÚK ?I 9J iL aD         0ËQþ0òwïD             0ËQþ0ï9aD J              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC12Ð
+Jþ>:      0   0à À      ÿDefault Font WIRE LABEL      pJBþ0ï90ËQþ0ï90ËQþ tïD mE úE     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿC[8..15] ëMþü|      0   0à À      ÿDefault Font WIRE LABEL      0ËQþ0òw0ËQþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC8Ð
+Jþ`at      0   0à À      ÿDefault Font WIRE LABEL      pJBþ t0ËQþ t0ËQþpqhúE 0F ½F     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ t0ËQþpqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC9Ð
+JþÐÀh      0   0à À      ÿDefault Font WIRE LABEL      pJBþpqh0ËQþpqh0ËQþ±`½F óF G     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþpqh0ËQþ±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC10Ð
+Jþp a      0   0à À      ÿDefault Font WIRE LABEL      pJBþ±`0ËQþ±`0ËQþ°ðXG ·G EH     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ±`0ËQþ°ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC11Ð
+Jþ@Y      0   0à À      ÿDefault Font WIRE LABEL      pJBþ°ðX0ËQþ°ðX0ËQþP0QEH {H 	I     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ°ðX0ËQþP0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC15Ð
+Jþ°Q      0   0à À      ÿDefault Font WIRE LABEL      pJBþP0Q0ËQþP0Q0ËQþðoI	I ?I ÍI     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþP0Q0ËQþðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC14Ð
+JþP¿I      0   0à À      ÿDefault Font WIRE LABEL      pJBþðoI0ËQþðoI0ËQþ¯AÍI J 9J     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþðoI0ËQþ¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ0ï90ËQþ¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC13Ð
+JþðþA      0   0à À      ÿDefault Font WIRE LABEL      pJBþ¯A0ËQþ¯A@g þ tLK              èþ tàJ K LK          Àž   @  ÿÿÿ ÿÿÿ WIRE    0Èþ t èþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÈþÐ1p èþÐ1p èþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐþ`at      0   0à À      ÿDefault Font WIRE LABEL      @g þ t èþ t@g þ²ÚK                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 'þð€      0   0à À      ÿDefault Font WIRE LABEL      0Èþ²@g þ²@g þðr‡iL                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD1 'þPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      0Èþðr‡@g þðr‡ ÿU4°=xþ€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°=xþ ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°=xþpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°=xþpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECxþ S‹              U £O JU gP +Q ïQ ³R V wS qT ¡V –N         °Ï®þ0òw$O             °Ï®þ0ï9–N ;T              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC20P§þ>:      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ0ï9°Ï®þ0ï9°Ï®þ t$O £O 1P     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[16..23]€ïªþü|      0   0à À      ÿDefault Font WIRE LABEL      °Ï®þ0òw°Ï®þ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC16P§þ`at      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ t°Ï®þ t°Ï®þpqh1P gP õP     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ t°Ï®þpqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC17P§þÐÀh      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþpqh°Ï®þpqh°Ï®þ±`õP +Q ¹Q     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þpqh°Ï®þ±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC18P§þp a      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ±`°Ï®þ±`°Ï®þ°ðX¹Q ïQ }R     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ±`°Ï®þ°ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC19P§þ@Y      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ°ðX°Ï®þ°ðX°Ï®þP0Q}R ³R AS     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ°ðX°Ï®þP0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC23P§þ°Q      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþP0Q°Ï®þP0Q°Ï®þðoIAS wS T     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þP0Q°Ï®þðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC22P§þP¿I      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþðoI°Ï®þðoI°Ï®þ¯AT ;T qT     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þðoI°Ï®þ¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ0ï9°Ï®þ¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC21P§þðþA      0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ¯A°Ï®þ¯AÀk]þ t„U             €ìlþ tU JU „U          Àž   @  ÿÿÿ ÿÿÿ WIRE    °Ìpþ t€ìlþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE    °ÌpþÐ1p€ìlþÐ1p€ìlþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCPiþ`at      0   0à À      ÿDefault Font WIRE LABEL      Àk]þ t€ìlþ tÀk]þ²V                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK ,eþð€      0   0à À      ÿDefault Font WIRE LABEL      °Ìpþ²Àk]þ²Àk]þðr‡¡V                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD2 ,eþPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      °Ìpþðr‡Àk]þðr‡ ÿU50BÕþ€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F1640BÕþ ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F1640BÕþpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+0BÕþpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC‘Õþ S‹              P_ ÛY ‚_ ŸZ c[ '\ ë\ J` ¯] ©^ Ù` ÎX         0Ôÿ0òw\Y             0Ôÿ0ï9ÎX s^              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC28Ðÿ>:      0   0à À      ÿDefault Font WIRE LABEL      pSüþ0ï90Ôÿ0ï90Ôÿ t\Y ÛY iZ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[24..31] ôÿü|      0   0à À      ÿDefault Font WIRE LABEL      0Ôÿ0òw0Ôÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC24Ðÿ`at      0   0à À      ÿDefault Font WIRE LABEL      pSüþ t0Ôÿ t0ÔÿpqhiZ ŸZ -[     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ t0Ôÿpqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC25ÐÿÐÀh      0   0à À      ÿDefault Font WIRE LABEL      pSüþpqh0Ôÿpqh0Ôÿ±`-[ c[ ñ[     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿpqh0Ôÿ±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC26Ðÿp a      0   0à À      ÿDefault Font WIRE LABEL      pSüþ±`0Ôÿ±`0Ôÿ°ðXñ[ '\ µ\     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ±`0Ôÿ°ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC27Ðÿ@Y      0   0à À      ÿDefault Font WIRE LABEL      pSüþ°ðX0Ôÿ°ðX0ÔÿP0Qµ\ ë\ y]     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ°ðX0ÔÿP0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC31Ðÿ°Q      0   0à À      ÿDefault Font WIRE LABEL      pSüþP0Q0ÔÿP0Q0ÔÿðoIy] ¯] =^     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿP0Q0ÔÿðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC30ÐÿP¿I      0   0à À      ÿDefault Font WIRE LABEL      pSüþðoI0ÔÿðoI0Ôÿ¯A=^ s^ ©^     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿðoI0Ôÿ¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ0ï90Ôÿ¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC29ÐÿðþA      0   0à À      ÿDefault Font WIRE LABEL      pSüþ¯A0Ôÿ¯A@pºþ t¼_              ñÉþ tP_ ‚_ ¼_          Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÑÍþ t ñÉþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÑÍþÐ1p ñÉþÐ1p ñÉþ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐÆþ`at      0   0à À      ÿDefault Font WIRE LABEL      @pºþ t ñÉþ t@pºþ²J`                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 0Âþð€      0   0à À      ÿDefault Font WIRE LABEL      0ÑÍþ²@pºþ²@pºþðr‡Ù`                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD3 0ÂþPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      0ÑÍþðr‡@pºþðr‡ ÿU6°F2ÿ€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°F2ÿ ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°F2ÿpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°F2ÿpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC–2ÿ S‹              ˆi d ºi ×d ›e _f #g ‚j çg áh k c         °Øhÿ0òw”c             °Øhÿ0ï9c «h              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC36Paÿ>:      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ0ï9°Øhÿ0ï9°Øhÿ t”c d ¡d     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[32..39]€ødÿü|      0   0à À      ÿDefault Font WIRE LABEL      °Øhÿ0òw°Øhÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC32Paÿ`at      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ t°Øhÿ t°Øhÿpqh¡d ×d ee     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ t°Øhÿpqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC33PaÿÐÀh      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿpqh°Øhÿpqh°Øhÿ±`ee ›e )f     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿpqh°Øhÿ±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC34Paÿp a      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ±`°Øhÿ±`°Øhÿ°ðX)f _f íf     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ±`°Øhÿ°ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC35Paÿ@Y      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ°ðX°Øhÿ°ðX°ØhÿP0Qíf #g ±g     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ°ðX°ØhÿP0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC39Paÿ°Q      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿP0Q°ØhÿP0Q°ØhÿðoI±g çg uh     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿP0Q°ØhÿðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC38PaÿP¿I      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿðoI°ØhÿðoI°Øhÿ¯Auh «h áh     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿðoI°Øhÿ¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ0ï9°Øhÿ¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC37PaÿðþA      0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ¯A°Øhÿ¯AÀtÿ tôi             €õ&ÿ tˆi ºi ôi          Àž   @  ÿÿÿ ÿÿÿ WIRE    °Õ*ÿ t€õ&ÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE    °Õ*ÿÐ1p€õ&ÿÐ1p€õ&ÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCP#ÿ`at      0   0à À      ÿDefault Font WIRE LABEL      Àtÿ t€õ&ÿ tÀtÿ²‚j                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 5ÿð€      0   0à À      ÿDefault Font WIRE LABEL      °Õ*ÿ²Àtÿ²Àtÿðr‡k                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD4 5ÿPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      °Õ*ÿðr‡Àtÿðr‡ ÿU70Kÿ€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F1640Kÿ ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F1640Kÿpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+0Kÿpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECšÿ S‹              Às Kn òs o Óo —p [q ºt r s Iu >m         0ÝÅÿ0òwÌm             0ÝÅÿ0ï9>m ãr              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC44Ð¾ÿ>:      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ0ï90ÝÅÿ0ï90ÝÅÿ tÌm Kn Ùn     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[40..47] ýÁÿü|      0   0à À      ÿDefault Font WIRE LABEL      0ÝÅÿ0òw0ÝÅÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC40Ð¾ÿ`at      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ t0ÝÅÿ t0ÝÅÿpqhÙn o o     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ t0ÝÅÿpqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC41Ð¾ÿÐÀh      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿpqh0ÝÅÿpqh0ÝÅÿ±`o Óo ap     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿpqh0ÝÅÿ±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC42Ð¾ÿp a      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ±`0ÝÅÿ±`0ÝÅÿ°ðXap —p %q     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ±`0ÝÅÿ°ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC43Ð¾ÿ@Y      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ°ðX0ÝÅÿ°ðX0ÝÅÿP0Q%q [q éq     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ°ðX0ÝÅÿP0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC47Ð¾ÿ°Q      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿP0Q0ÝÅÿP0Q0ÝÅÿðoIéq r ­r     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿP0Q0ÝÅÿðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC46Ð¾ÿP¿I      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿðoI0ÝÅÿðoI0ÝÅÿ¯A­r ãr s     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿðoI0ÝÅÿ¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ0ï90ÝÅÿ¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC45Ð¾ÿðþA      0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ¯A0ÝÅÿ¯A@ytÿ t,t              úƒÿ tÀs òs ,t          Àž   @  ÿÿÿ ÿÿÿ WIRE    0Ú‡ÿ t úƒÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE    0Ú‡ÿÐ1p úƒÿÐ1p úƒÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐ€ÿ`at      0   0à À      ÿDefault Font WIRE LABEL      @ytÿ t úƒÿ t@ytÿ²ºt                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 9|ÿð€      0   0à À      ÿDefault Font WIRE LABEL      0Ú‡ÿ²@ytÿ²@ytÿðr‡Iu                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD5 9|ÿPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      0Ú‡ÿðr‡@ytÿðr‡ ÿU8°Oìÿ€¢‹      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°Oìÿ ¿5     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°Oìÿpß1     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°Oìÿpß1     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECŸìÿ S‹              ø} ƒx *~ Gy z Ïz “{ ò~ W| Q}  vw         °á" 0òwx             °á" 0ï9vw }              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC52P! >:      0   0à À      ÿDefault Font WIRE LABEL      ð` 0ï9°á" 0ï9°á"  tx ƒx y     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[48..55]€ ü|      0   0à À      ÿDefault Font WIRE LABEL      °á" 0òw°á"  t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC48P! `at      0   0à À      ÿDefault Font WIRE LABEL      ð`  t°á"  t°á" pqhy Gy Õy     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á"  t°á" pqh     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC49P! ÐÀh      0   0à À      ÿDefault Font WIRE LABEL      ð` pqh°á" pqh°á" ±`Õy z ™z     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" pqh°á" ±`     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC50P! p a      0   0à À      ÿDefault Font WIRE LABEL      ð` ±`°á" ±`°á" °ðX™z Ïz ]{     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" ±`°á" °ðX     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC51P! @Y      0   0à À      ÿDefault Font WIRE LABEL      ð` °ðX°á" °ðX°á" P0Q]{ “{ !|     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" °ðX°á" P0Q     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC55P! °Q      0   0à À      ÿDefault Font WIRE LABEL      ð` P0Q°á" P0Q°á" ðoI!| W| å|     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" P0Q°á" ðoI     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC54P! P¿I      0   0à À      ÿDefault Font WIRE LABEL      ð` ðoI°á" ðoI°á" ¯Aå| } Q}     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" ðoI°á" ¯A!    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" 0ï9°á" ¯A     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC53P! ðþA      0   0à À      ÿDefault Font WIRE LABEL      ð` ¯A°á" ¯AÀ}Ñÿ td~             €þàÿ tø} *~ d~          Àž   @  ÿÿÿ ÿÿÿ WIRE    °Þäÿ t€þàÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE    °ÞäÿÐ1p€þàÿÐ1p€þàÿ t     Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCPÝÿ`at      0   0à À      ÿDefault Font WIRE LABEL      À}Ñÿ t€þàÿ tÀ}Ñÿ²ò~                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK >Ùÿð€      0   0à À      ÿDefault Font WIRE LABEL      °Þäÿ²À}Ñÿ²À}Ñÿðr‡                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD6 >ÙÿPÂ‡      0   0à À      ÿDefault Font WIRE LABEL      °Þäÿðr‡À}Ñÿðr‡ ÿU9€Tºýà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164€Tºý zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164€TºýÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+€TºýÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECà£ºý€              &ˆ ¸‚ Xˆ {ƒ >„ … Ä…  ‰ ‡† €‡ ¯‰ ®         €æðý¬;‚             €æðý©Å ® J‡              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC4 &éýðøÅ       0   0à À      ÿDefault Font WIRE LABEL      Àeáý©Å €æðý©Å €æðý`Ìÿ ;‚ ¸‚ Eƒ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿC[0..7]Píýh¶      0   0à À      ÿDefault Font WIRE LABEL      €æðý¬€æðý`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC10 &éýÀ       0   0à À      ÿDefault Font WIRE LABEL      Àeáý`Ìÿ €æðý`Ìÿ €æðýÐ+ô Eƒ {ƒ „     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý`Ìÿ €æðýÐ+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC1 &éý0{ô       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýÐ+ô €æðýÐ+ô €æðýpkì „ >„ Ë„     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýÐ+ô €æðýpkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC2 &éýÐºì       0   0à À      ÿDefault Font WIRE LABEL      Àeáýpkì €æðýpkì €æðý«ä Ë„ … Ž…     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýpkì €æðý«ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC3 &éýpúä       0   0à À      ÿDefault Font WIRE LABEL      Àeáý«ä €æðý«ä €æðý°êÜ Ž… Ä… Q†     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý«ä €æðý°êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC7 &éý:Ý       0   0à À      ÿDefault Font WIRE LABEL      Àeáý°êÜ €æðý°êÜ €æðýP*Õ Q† ‡† ‡     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý°êÜ €æðýP*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC6 &éý°yÕ       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýP*Õ €æðýP*Õ €æðýðiÍ ‡ J‡ €‡     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýP*Õ €æðýðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý©Å €æðýðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC5 &éýP¹Í       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýðiÍ €æðýðiÍ ‚Ÿý`Ìÿ ’ˆ             P¯ý`Ìÿ &ˆ Xˆ ’ˆ          Àž   @  ÿÿÿ ÿÿÿ WIRE    €ã²ý`Ìÿ P¯ý`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    €ã²ý0ìû P¯ý0ìû P¯ý`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCC #«ýÀ       0   0à À      ÿDefault Font WIRE LABEL      ‚Ÿý`Ìÿ P¯ý`Ìÿ ‚Ÿýðl ‰                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLKðB§ýP¼      0   0à À      ÿDefault Font WIRE LABEL      €ã²ýðl‚Ÿýðl‚ŸýP-¯‰                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD10ðB§ý°|      0   0à À      ÿDefault Font WIRE LABEL      €ã²ýP-‚ŸýP- ÿU1009þà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F16409þ zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F16409þÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+09þÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECˆþ€              ]’ êŒ ’ ­ pŽ 4 ø W“ ¼ ¶‘ æ“ Þ‹         0ËQþ¬lŒ             0ËQþ©Å Þ‹ €‘              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC12Ð
+JþðøÅ       0   0à À      ÿDefault Font WIRE LABEL      pJBþ©Å 0ËQþ©Å 0ËQþ`Ìÿ lŒ êŒ w     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿC[8..15] ëMþh¶      0   0à À      ÿDefault Font WIRE LABEL      0ËQþ¬0ËQþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC8Ð
+JþÀ       0   0à À      ÿDefault Font WIRE LABEL      pJBþ`Ìÿ 0ËQþ`Ìÿ 0ËQþÐ+ô w ­ :Ž     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ`Ìÿ 0ËQþÐ+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC9Ð
+Jþ0{ô       0   0à À      ÿDefault Font WIRE LABEL      pJBþÐ+ô 0ËQþÐ+ô 0ËQþpkì :Ž pŽ þŽ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþÐ+ô 0ËQþpkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC10Ð
+JþÐºì       0   0à À      ÿDefault Font WIRE LABEL      pJBþpkì 0ËQþpkì 0ËQþ«ä þŽ 4 Â     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþpkì 0ËQþ«ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC11Ð
+Jþpúä       0   0à À      ÿDefault Font WIRE LABEL      pJBþ«ä 0ËQþ«ä 0ËQþ°êÜ Â ø †     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ«ä 0ËQþ°êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC15Ð
+Jþ:Ý       0   0à À      ÿDefault Font WIRE LABEL      pJBþ°êÜ 0ËQþ°êÜ 0ËQþP*Õ † ¼ J‘     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ°êÜ 0ËQþP*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC14Ð
+Jþ°yÕ       0   0à À      ÿDefault Font WIRE LABEL      pJBþP*Õ 0ËQþP*Õ 0ËQþðiÍ J‘ €‘ ¶‘     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþP*Õ 0ËQþðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ©Å 0ËQþðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC13Ð
+JþP¹Í       0   0à À      ÿDefault Font WIRE LABEL      pJBþðiÍ 0ËQþðiÍ @g þ`Ìÿ É’              èþ`Ìÿ ]’ ’ É’          Àž   @  ÿÿÿ ÿÿÿ WIRE    0Èþ`Ìÿ  èþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    0Èþ0ìû  èþ0ìû  èþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐþÀ       0   0à À      ÿDefault Font WIRE LABEL      @g þ`Ìÿ  èþ`Ìÿ @g þðlW“                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 'þP¼      0   0à À      ÿDefault Font WIRE LABEL      0Èþðl@g þðl@g þP-æ“                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD11 'þ°|      0   0à À      ÿDefault Font WIRE LABEL      0ÈþP-@g þP- ÿU11°=xþà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°=xþ zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°=xþÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°=xþÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECxþ€              —œ "— Éœ æ— ª˜ n™ 2š ‘ öš ð›  ž –         °Ï®þ¬£–             °Ï®þ©Å – º›              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC20P§þðøÅ       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ©Å °Ï®þ©Å °Ï®þ`Ìÿ £– "— °—     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[16..23]€ïªþh¶      0   0à À      ÿDefault Font WIRE LABEL      °Ï®þ¬°Ï®þ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC16P§þÀ       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ`Ìÿ °Ï®þ`Ìÿ °Ï®þÐ+ô °— æ— t˜     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ`Ìÿ °Ï®þÐ+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC17P§þ0{ô       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþÐ+ô °Ï®þÐ+ô °Ï®þpkì t˜ ª˜ 8™     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þÐ+ô °Ï®þpkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC18P§þÐºì       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþpkì °Ï®þpkì °Ï®þ«ä 8™ n™ ü™     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þpkì °Ï®þ«ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC19P§þpúä       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ«ä °Ï®þ«ä °Ï®þ°êÜ ü™ 2š Àš     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ«ä °Ï®þ°êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC23P§þ:Ý       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ°êÜ °Ï®þ°êÜ °Ï®þP*Õ Àš öš „›     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ°êÜ °Ï®þP*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC22P§þ°yÕ       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþP*Õ °Ï®þP*Õ °Ï®þðiÍ „› º› ð›     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þP*Õ °Ï®þðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ©Å °Ï®þðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC21P§þP¹Í       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþðiÍ °Ï®þðiÍ Àk]þ`Ìÿ              €ìlþ`Ìÿ —œ Éœ           Àž   @  ÿÿÿ ÿÿÿ WIRE    °Ìpþ`Ìÿ €ìlþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    °Ìpþ0ìû €ìlþ0ìû €ìlþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCPiþÀ       0   0à À      ÿDefault Font WIRE LABEL      Àk]þ`Ìÿ €ìlþ`Ìÿ Àk]þðl‘                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK ,eþP¼      0   0à À      ÿDefault Font WIRE LABEL      °ÌpþðlÀk]þðlÀk]þP- ž                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD12 ,eþ°|      0   0à À      ÿDefault Font WIRE LABEL      °ÌpþP-Àk]þP- ÿU120BÕþà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F1640BÕþ zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F1640BÕþÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+0BÕþÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC‘Õþ€              Ñ¦ \¡ §  ¢ ä¢ ¨£ l¤ Ë§ 0¥ *¦ Z¨ O          0Ôÿ¬Ý              0Ôÿ©Å O  ô¥              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC28ÐÿðøÅ       0   0à À      ÿDefault Font WIRE LABEL      pSüþ©Å 0Ôÿ©Å 0Ôÿ`Ìÿ Ý  \¡ ê¡     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[24..31] ôÿh¶      0   0à À      ÿDefault Font WIRE LABEL      0Ôÿ¬0Ôÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC24ÐÿÀ       0   0à À      ÿDefault Font WIRE LABEL      pSüþ`Ìÿ 0Ôÿ`Ìÿ 0ÔÿÐ+ô ê¡  ¢ ®¢     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ`Ìÿ 0ÔÿÐ+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC25Ðÿ0{ô       0   0à À      ÿDefault Font WIRE LABEL      pSüþÐ+ô 0ÔÿÐ+ô 0Ôÿpkì ®¢ ä¢ r£     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿÐ+ô 0Ôÿpkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC26ÐÿÐºì       0   0à À      ÿDefault Font WIRE LABEL      pSüþpkì 0Ôÿpkì 0Ôÿ«ä r£ ¨£ 6¤     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿpkì 0Ôÿ«ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC27Ðÿpúä       0   0à À      ÿDefault Font WIRE LABEL      pSüþ«ä 0Ôÿ«ä 0Ôÿ°êÜ 6¤ l¤ ú¤     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ«ä 0Ôÿ°êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC31Ðÿ:Ý       0   0à À      ÿDefault Font WIRE LABEL      pSüþ°êÜ 0Ôÿ°êÜ 0ÔÿP*Õ ú¤ 0¥ ¾¥     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ°êÜ 0ÔÿP*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC30Ðÿ°yÕ       0   0à À      ÿDefault Font WIRE LABEL      pSüþP*Õ 0ÔÿP*Õ 0ÔÿðiÍ ¾¥ ô¥ *¦     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿP*Õ 0ÔÿðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ©Å 0ÔÿðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC29ÐÿP¹Í       0   0à À      ÿDefault Font WIRE LABEL      pSüþðiÍ 0ÔÿðiÍ @pºþ`Ìÿ =§              ñÉþ`Ìÿ Ñ¦ § =§          Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÑÍþ`Ìÿ  ñÉþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÑÍþ0ìû  ñÉþ0ìû  ñÉþ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐÆþÀ       0   0à À      ÿDefault Font WIRE LABEL      @pºþ`Ìÿ  ñÉþ`Ìÿ @pºþðlË§                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 0ÂþP¼      0   0à À      ÿDefault Font WIRE LABEL      0ÑÍþðl@pºþðl@pºþP-Z¨                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD13 0Âþ°|      0   0à À      ÿDefault Font WIRE LABEL      0ÑÍþP-@pºþP- ÿU13°F2ÿà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°F2ÿ zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°F2ÿÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°F2ÿÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC–2ÿ€              ± –« =± Z¬ ­ â­ ¦® ² j¯ d° ”² ‰ª         °Øhÿ¬«             °Øhÿ©Å ‰ª .°              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC36PaÿðøÅ       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ©Å °Øhÿ©Å °Øhÿ`Ìÿ « –« $¬     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[32..39]€ødÿh¶      0   0à À      ÿDefault Font WIRE LABEL      °Øhÿ¬°Øhÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC32PaÿÀ       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ`Ìÿ °Øhÿ`Ìÿ °ØhÿÐ+ô $¬ Z¬ è¬     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ`Ìÿ °ØhÿÐ+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC33Paÿ0{ô       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿÐ+ô °ØhÿÐ+ô °Øhÿpkì è¬ ­ ¬­     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿÐ+ô °Øhÿpkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC34PaÿÐºì       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿpkì °Øhÿpkì °Øhÿ«ä ¬­ â­ p®     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿpkì °Øhÿ«ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC35Paÿpúä       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ«ä °Øhÿ«ä °Øhÿ°êÜ p® ¦® 4¯     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ«ä °Øhÿ°êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC39Paÿ:Ý       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ°êÜ °Øhÿ°êÜ °ØhÿP*Õ 4¯ j¯ ø¯     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ°êÜ °ØhÿP*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC38Paÿ°yÕ       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿP*Õ °ØhÿP*Õ °ØhÿðiÍ ø¯ .° d°     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿP*Õ °ØhÿðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ©Å °ØhÿðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC37PaÿP¹Í       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿðiÍ °ØhÿðiÍ Àtÿ`Ìÿ w±             €õ&ÿ`Ìÿ ± =± w±          Àž   @  ÿÿÿ ÿÿÿ WIRE    °Õ*ÿ`Ìÿ €õ&ÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    °Õ*ÿ0ìû €õ&ÿ0ìû €õ&ÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCP#ÿÀ       0   0à À      ÿDefault Font WIRE LABEL      Àtÿ`Ìÿ €õ&ÿ`Ìÿ Àtÿðl²                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 5ÿP¼      0   0à À      ÿDefault Font WIRE LABEL      °Õ*ÿðlÀtÿðlÀtÿP-”²                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD14 5ÿ°|      0   0à À      ÿDefault Font WIRE LABEL      °Õ*ÿP-ÀtÿP- ÿU140Kÿà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F1640Kÿ zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F1640KÿÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+0KÿÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECšÿ€              E» Ðµ w» ”¶ X· ¸ à¸ ?¼ ¤¹ žº Î¼ Ã´         0ÝÅÿ¬Qµ             0ÝÅÿ©Å Ã´ hº              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC44Ð¾ÿðøÅ       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ©Å 0ÝÅÿ©Å 0ÝÅÿ`Ìÿ Qµ Ðµ ^¶     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[40..47] ýÁÿh¶      0   0à À      ÿDefault Font WIRE LABEL      0ÝÅÿ¬0ÝÅÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC40Ð¾ÿÀ       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ`Ìÿ 0ÝÅÿ`Ìÿ 0ÝÅÿÐ+ô ^¶ ”¶ "·     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ`Ìÿ 0ÝÅÿÐ+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC41Ð¾ÿ0{ô       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿÐ+ô 0ÝÅÿÐ+ô 0ÝÅÿpkì "· X· æ·     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿÐ+ô 0ÝÅÿpkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC42Ð¾ÿÐºì       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿpkì 0ÝÅÿpkì 0ÝÅÿ«ä æ· ¸ ª¸     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿpkì 0ÝÅÿ«ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC43Ð¾ÿpúä       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ«ä 0ÝÅÿ«ä 0ÝÅÿ°êÜ ª¸ à¸ n¹     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ«ä 0ÝÅÿ°êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC47Ð¾ÿ:Ý       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ°êÜ 0ÝÅÿ°êÜ 0ÝÅÿP*Õ n¹ ¤¹ 2º     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ°êÜ 0ÝÅÿP*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC46Ð¾ÿ°yÕ       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿP*Õ 0ÝÅÿP*Õ 0ÝÅÿðiÍ 2º hº žº     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿP*Õ 0ÝÅÿðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ©Å 0ÝÅÿðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC45Ð¾ÿP¹Í       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿðiÍ 0ÝÅÿðiÍ @ytÿ`Ìÿ ±»              úƒÿ`Ìÿ E» w» ±»          Àž   @  ÿÿÿ ÿÿÿ WIRE    0Ú‡ÿ`Ìÿ  úƒÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    0Ú‡ÿ0ìû  úƒÿ0ìû  úƒÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐ€ÿÀ       0   0à À      ÿDefault Font WIRE LABEL      @ytÿ`Ìÿ  úƒÿ`Ìÿ @ytÿðl?¼                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 9|ÿP¼      0   0à À      ÿDefault Font WIRE LABEL      0Ú‡ÿðl@ytÿðl@ytÿP-Î¼                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD15 9|ÿ°|      0   0à À      ÿDefault Font WIRE LABEL      0Ú‡ÿP-@ytÿP- ÿU15°Oìÿà\      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°Oìÿ zÁ      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°OìÿÐ™½      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°OìÿÐ™½      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECŸìÿ€              Å 
+À ±Å ÎÀ ’Á VÂ Ã yÆ ÞÃ ØÄ Ç ý¾         °á" ¬‹¿             °á" ©Å ý¾ ¢Ä              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC52P! ðøÅ       0   0à À      ÿDefault Font WIRE LABEL      ð` ©Å °á" ©Å °á" `Ìÿ ‹¿ 
+À ˜À     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[48..55]€ h¶      0   0à À      ÿDefault Font WIRE LABEL      °á" ¬°á" `Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC48P! À       0   0à À      ÿDefault Font WIRE LABEL      ð` `Ìÿ °á" `Ìÿ °á" Ð+ô ˜À ÎÀ \Á     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" `Ìÿ °á" Ð+ô      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC49P! 0{ô       0   0à À      ÿDefault Font WIRE LABEL      ð` Ð+ô °á" Ð+ô °á" pkì \Á ’Á  Â     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" Ð+ô °á" pkì      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC50P! Ðºì       0   0à À      ÿDefault Font WIRE LABEL      ð` pkì °á" pkì °á" «ä  Â VÂ äÂ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" pkì °á" «ä      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC51P! púä       0   0à À      ÿDefault Font WIRE LABEL      ð` «ä °á" «ä °á" °êÜ äÂ Ã ¨Ã     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" «ä °á" °êÜ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC55P! :Ý       0   0à À      ÿDefault Font WIRE LABEL      ð` °êÜ °á" °êÜ °á" P*Õ ¨Ã ÞÃ lÄ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" °êÜ °á" P*Õ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC54P! °yÕ       0   0à À      ÿDefault Font WIRE LABEL      ð` P*Õ °á" P*Õ °á" ðiÍ lÄ ¢Ä ØÄ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" P*Õ °á" ðiÍ !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" ©Å °á" ðiÍ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC53P! P¹Í       0   0à À      ÿDefault Font WIRE LABEL      ð` ðiÍ °á" ðiÍ À}Ñÿ`Ìÿ ëÅ             €þàÿ`Ìÿ Å ±Å ëÅ          Àž   @  ÿÿÿ ÿÿÿ WIRE    °Þäÿ`Ìÿ €þàÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE    °Þäÿ0ìû €þàÿ0ìû €þàÿ`Ìÿ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCPÝÿÀ       0   0à À      ÿDefault Font WIRE LABEL      À}Ñÿ`Ìÿ €þàÿ`Ìÿ À}ÑÿðlyÆ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK >ÙÿP¼      0   0à À      ÿDefault Font WIRE LABEL      °ÞäÿðlÀ}ÑÿðlÀ}ÑÿP-Ç                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD16 >Ùÿ°|      0   0à À      ÿDefault Font WIRE LABEL      °ÞäÿP-À}ÑÿP- ÿU16€Tºý@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164€Tºý`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164€Tºý0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+€Tºý0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECà£ºýàÇ¢               ¯Ï AÊ áÏ Ë ÇË ŠÌ MÍ ©Ð Î 	Ï 8Ñ 7É         €æðýðf ÄÉ             €æðýðcQ 7É ÓÎ              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC4 &éýP³Q       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýðcQ €æðýðcQ €æðýÀ†‹ ÄÉ AÊ ÎÊ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿC[0..7]PíýÈp”       0   0à À      ÿDefault Font WIRE LABEL      €æðýðf €æðýÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC20 &éý Ö‹       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýÀ†‹ €æðýÀ†‹ €æðý0æ ÎÊ Ë ‘Ë     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýÀ†‹ €æðý0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC1 &éý5€       0   0à À      ÿDefault Font WIRE LABEL      Àeáý0æ €æðý0æ €æðýÐ%x ‘Ë ÇË TÌ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý0æ €æðýÐ%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC2 &éý0ux       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýÐ%x €æðýÐ%x €æðýpep TÌ ŠÌ Í     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýÐ%x €æðýpep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC3 &éýÐ´p       0   0à À      ÿDefault Font WIRE LABEL      Àeáýpep €æðýpep €æðý¥h Í MÍ ÚÍ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýpep €æðý¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC7 &éýpôh       0   0à À      ÿDefault Font WIRE LABEL      Àeáý¥h €æðý¥h €æðý°ä` ÚÍ Î Î     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý¥h €æðý°ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC6 &éý4a       0   0à À      ÿDefault Font WIRE LABEL      Àeáý°ä` €æðý°ä` €æðýP$Y Î ÓÎ 	Ï     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðý°ä` €æðýP$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    €æðýðcQ €æðýP$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC5 &éý°sY       0   0à À      ÿDefault Font WIRE LABEL      ÀeáýP$Y €æðýP$Y ‚ŸýÀ†‹ Ð             P¯ýÀ†‹ ¯Ï áÏ Ð          Àž   @  ÿÿÿ ÿÿÿ WIRE    €ã²ýÀ†‹ P¯ýÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    €ã²ý¦‡ P¯ý¦‡ P¯ýÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCC #«ý Ö‹       0   0à À      ÿDefault Font WIRE LABEL      ‚ŸýÀ†‹ P¯ýÀ†‹ ‚ŸýP'— ©Ð                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLKðB§ý°v—       0   0à À      ÿDefault Font WIRE LABEL      €ã²ýP'— ‚ŸýP'— ‚Ÿý°çž 8Ñ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD20ðB§ý7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      €ã²ý°çž ‚Ÿý°çž  ÿU1709þ@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F16409þ`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F16409þ0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+09þ0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECˆþàÇ¢               æÙ sÔ Ú 6Õ ùÕ ½Ö × àÚ EØ ?Ù oÛ gÓ         0ËQþðf õÓ             0ËQþðcQ gÓ 	Ù              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC12Ð
+JþP³Q       0   0à À      ÿDefault Font WIRE LABEL      pJBþðcQ 0ËQþðcQ 0ËQþÀ†‹ õÓ sÔ  Õ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿC[8..15] ëMþÈp”       0   0à À      ÿDefault Font WIRE LABEL      0ËQþðf 0ËQþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC8Ð
+Jþ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      pJBþÀ†‹ 0ËQþÀ†‹ 0ËQþ0æ  Õ 6Õ ÃÕ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþÀ†‹ 0ËQþ0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC9Ð
+Jþ5€       0   0à À      ÿDefault Font WIRE LABEL      pJBþ0æ 0ËQþ0æ 0ËQþÐ%x ÃÕ ùÕ ‡Ö     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ0æ 0ËQþÐ%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC10Ð
+Jþ0ux       0   0à À      ÿDefault Font WIRE LABEL      pJBþÐ%x 0ËQþÐ%x 0ËQþpep ‡Ö ½Ö K×     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþÐ%x 0ËQþpep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC11Ð
+JþÐ´p       0   0à À      ÿDefault Font WIRE LABEL      pJBþpep 0ËQþpep 0ËQþ¥h K× × Ø     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþpep 0ËQþ¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC15Ð
+Jþpôh       0   0à À      ÿDefault Font WIRE LABEL      pJBþ¥h 0ËQþ¥h 0ËQþ°ä` Ø EØ ÓØ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ¥h 0ËQþ°ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC14Ð
+Jþ4a       0   0à À      ÿDefault Font WIRE LABEL      pJBþ°ä` 0ËQþ°ä` 0ËQþP$Y ÓØ 	Ù ?Ù     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþ°ä` 0ËQþP$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ËQþðcQ 0ËQþP$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC13Ð
+Jþ°sY       0   0à À      ÿDefault Font WIRE LABEL      pJBþP$Y 0ËQþP$Y @g þÀ†‹ RÚ              èþÀ†‹ æÙ Ú RÚ          Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÈþÀ†‹  èþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    0Èþ¦‡  èþ¦‡  èþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐþ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      @g þÀ†‹  èþÀ†‹ @g þP'— àÚ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 'þ°v—       0   0à À      ÿDefault Font WIRE LABEL      0ÈþP'— @g þP'— @g þ°çž oÛ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD21 'þ7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      0Èþ°çž @g þ°çž  ÿU18°=xþ@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°=xþ`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°=xþ0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°=xþ0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECxþàÇ¢                ä «Þ Rä oß 3à ÷à »á å â yã ©å žÝ         °Ï®þðf ,Þ             °Ï®þðcQ žÝ Cã              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC20P§þP³Q       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþðcQ °Ï®þðcQ °Ï®þÀ†‹ ,Þ «Þ 9ß     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[16..23]€ïªþÈp”       0   0à À      ÿDefault Font WIRE LABEL      °Ï®þðf °Ï®þÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC16P§þ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþÀ†‹ °Ï®þÀ†‹ °Ï®þ0æ 9ß oß ýß     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þÀ†‹ °Ï®þ0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC17P§þ5€       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ0æ °Ï®þ0æ °Ï®þÐ%x ýß 3à Áà     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ0æ °Ï®þÐ%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC18P§þ0ux       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþÐ%x °Ï®þÐ%x °Ï®þpep Áà ÷à …á     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þÐ%x °Ï®þpep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC19P§þÐ´p       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþpep °Ï®þpep °Ï®þ¥h …á »á Iâ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þpep °Ï®þ¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC23P§þpôh       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ¥h °Ï®þ¥h °Ï®þ°ä` Iâ â ã     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ¥h °Ï®þ°ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC22P§þ4a       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþ°ä` °Ï®þ°ä` °Ï®þP$Y ã Cã yã     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þ°ä` °Ï®þP$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Ï®þðcQ °Ï®þP$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC21P§þ°sY       0   0à À      ÿDefault Font WIRE LABEL      ðNŸþP$Y °Ï®þP$Y Àk]þÀ†‹ Œä             €ìlþÀ†‹  ä Rä Œä          Àž   @  ÿÿÿ ÿÿÿ WIRE    °ÌpþÀ†‹ €ìlþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    °Ìpþ¦‡ €ìlþ¦‡ €ìlþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCPiþ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      Àk]þÀ†‹ €ìlþÀ†‹ Àk]þP'— å                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK ,eþ°v—       0   0à À      ÿDefault Font WIRE LABEL      °ÌpþP'— Àk]þP'— Àk]þ°çž ©å                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD22 ,eþ7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      °Ìpþ°çž Àk]þ°çž  ÿU190BÕþ@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F1640BÕþ`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F1640BÕþ0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+0BÕþ0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC‘ÕþàÇ¢               Zî åè Œî ©é mê 1ë õë Tï ¹ì ³í ãï Øç         0Ôÿðf fè             0ÔÿðcQ Øç }í              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC28ÐÿP³Q       0   0à À      ÿDefault Font WIRE LABEL      pSüþðcQ 0ÔÿðcQ 0ÔÿÀ†‹ fè åè sé     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[24..31] ôÿÈp”       0   0à À      ÿDefault Font WIRE LABEL      0Ôÿðf 0ÔÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC24Ðÿ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      pSüþÀ†‹ 0ÔÿÀ†‹ 0Ôÿ0æ sé ©é 7ê     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿÀ†‹ 0Ôÿ0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC25Ðÿ5€       0   0à À      ÿDefault Font WIRE LABEL      pSüþ0æ 0Ôÿ0æ 0ÔÿÐ%x 7ê mê ûê     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ0æ 0ÔÿÐ%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC26Ðÿ0ux       0   0à À      ÿDefault Font WIRE LABEL      pSüþÐ%x 0ÔÿÐ%x 0Ôÿpep ûê 1ë ¿ë     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿÐ%x 0Ôÿpep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC27ÐÿÐ´p       0   0à À      ÿDefault Font WIRE LABEL      pSüþpep 0Ôÿpep 0Ôÿ¥h ¿ë õë ƒì     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿpep 0Ôÿ¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC31Ðÿpôh       0   0à À      ÿDefault Font WIRE LABEL      pSüþ¥h 0Ôÿ¥h 0Ôÿ°ä` ƒì ¹ì Gí     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ¥h 0Ôÿ°ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC30Ðÿ4a       0   0à À      ÿDefault Font WIRE LABEL      pSüþ°ä` 0Ôÿ°ä` 0ÔÿP$Y Gí }í ³í     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0Ôÿ°ä` 0ÔÿP$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÔÿðcQ 0ÔÿP$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC29Ðÿ°sY       0   0à À      ÿDefault Font WIRE LABEL      pSüþP$Y 0ÔÿP$Y @pºþÀ†‹ Æî              ñÉþÀ†‹ Zî Œî Æî          Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÑÍþÀ†‹  ñÉþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    0ÑÍþ¦‡  ñÉþ¦‡  ñÉþÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐÆþ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      @pºþÀ†‹  ñÉþÀ†‹ @pºþP'— Tï                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 0Âþ°v—       0   0à À      ÿDefault Font WIRE LABEL      0ÑÍþP'— @pºþP'— @pºþ°çž ãï                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD23 0Âþ7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      0ÑÍþ°çž @pºþ°çž  ÿU20°F2ÿ@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°F2ÿ`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°F2ÿ0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°F2ÿ0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC–2ÿàÇ¢                ”ø ó Æø ãó §ô kõ /ö Žù óö í÷ ú ò         °Øhÿðf  ò             °ØhÿðcQ ò ·÷              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC36PaÿP³Q       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿðcQ °ØhÿðcQ °ØhÿÀ†‹  ò ó ­ó     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[32..39]€ødÿÈp”       0   0à À      ÿDefault Font WIRE LABEL      °Øhÿðf °ØhÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC32Paÿ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿÀ†‹ °ØhÿÀ†‹ °Øhÿ0æ ­ó ãó qô     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿÀ†‹ °Øhÿ0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC33Paÿ5€       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ0æ °Øhÿ0æ °ØhÿÐ%x qô §ô 5õ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ0æ °ØhÿÐ%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC34Paÿ0ux       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿÐ%x °ØhÿÐ%x °Øhÿpep 5õ kõ ùõ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿÐ%x °Øhÿpep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC35PaÿÐ´p       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿpep °Øhÿpep °Øhÿ¥h ùõ /ö ½ö     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿpep °Øhÿ¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC39Paÿpôh       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ¥h °Øhÿ¥h °Øhÿ°ä` ½ö óö ÷     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ¥h °Øhÿ°ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC38Paÿ4a       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿ°ä` °Øhÿ°ä` °ØhÿP$Y ÷ ·÷ í÷     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °Øhÿ°ä` °ØhÿP$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °ØhÿðcQ °ØhÿP$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC37Paÿ°sY       0   0à À      ÿDefault Font WIRE LABEL      ðWYÿP$Y °ØhÿP$Y ÀtÿÀ†‹  ù             €õ&ÿÀ†‹ ”ø Æø  ù          Àž   @  ÿÿÿ ÿÿÿ WIRE    °Õ*ÿÀ†‹ €õ&ÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    °Õ*ÿ¦‡ €õ&ÿ¦‡ €õ&ÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCP#ÿ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      ÀtÿÀ†‹ €õ&ÿÀ†‹ ÀtÿP'— Žù                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 5ÿ°v—       0   0à À      ÿDefault Font WIRE LABEL      °Õ*ÿP'— ÀtÿP'— Àtÿ°çž ú                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD24 5ÿ7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      °Õ*ÿ°çž Àtÿ°çž  ÿU210Kÿ@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F1640Kÿ`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F1640Kÿ0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+0Kÿ0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECšÿàÇ¢     !          Î Yý   þ áþ ¥ÿ i  È - ' W Lü         0ÝÅÿðf Úü             0ÝÅÿðcQ Lü ñ              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC44Ð¾ÿP³Q       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿðcQ 0ÝÅÿðcQ 0ÝÅÿÀ†‹ Úü Yý çý     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[40..47] ýÁÿÈp”       0   0à À      ÿDefault Font WIRE LABEL      0ÝÅÿðf 0ÝÅÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC40Ð¾ÿ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿÀ†‹ 0ÝÅÿÀ†‹ 0ÝÅÿ0æ çý þ «þ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿÀ†‹ 0ÝÅÿ0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC41Ð¾ÿ5€       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ0æ 0ÝÅÿ0æ 0ÝÅÿÐ%x «þ áþ oÿ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ0æ 0ÝÅÿÐ%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC42Ð¾ÿ0ux       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿÐ%x 0ÝÅÿÐ%x 0ÝÅÿpep oÿ ¥ÿ 3      !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿÐ%x 0ÝÅÿpep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC43Ð¾ÿÐ´p       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿpep 0ÝÅÿpep 0ÝÅÿ¥h 3  i  ÷      !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿpep 0ÝÅÿ¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC47Ð¾ÿpôh       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ¥h 0ÝÅÿ¥h 0ÝÅÿ°ä` ÷  - »     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ¥h 0ÝÅÿ°ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC46Ð¾ÿ4a       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿ°ä` 0ÝÅÿ°ä` 0ÝÅÿP$Y » ñ '     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿ°ä` 0ÝÅÿP$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    0ÝÅÿðcQ 0ÝÅÿP$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC45Ð¾ÿ°sY       0   0à À      ÿDefault Font WIRE LABEL      p\¶ÿP$Y 0ÝÅÿP$Y @ytÿÀ†‹ :              úƒÿÀ†‹ Î   :          Àž   @  ÿÿÿ ÿÿÿ WIRE    0Ú‡ÿÀ†‹  úƒÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    0Ú‡ÿ¦‡  úƒÿ¦‡  úƒÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCÐ€ÿ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      @ytÿÀ†‹  úƒÿÀ†‹ @ytÿP'— È                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK 9|ÿ°v—       0   0à À      ÿDefault Font WIRE LABEL      0Ú‡ÿP'— @ytÿP'— @ytÿ°çž W                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD25 9|ÿ7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      0Ú‡ÿ°çž @ytÿ°çž  ÿU22°Oìÿ@£       2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°Oìÿ`4M      5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°Oìÿ0TI      1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°Oìÿ0TI      0   0à À      ÿDefault Font PROPERTIES         
+74F164.IECŸìÿàÇ¢     "           “ : W 	 ß	 £
+  g a ‘ †         °á" ðf              °á" ðcQ † +              Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC52P! P³Q       0   0à À      ÿDefault Font WIRE LABEL      ð` ðcQ °á" ðcQ °á" À†‹  “ !     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE  ÿ	C[48..55]€ Èp”       0   0à À      ÿDefault Font WIRE LABEL      °á" ðf °á" À†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC48P!  Ö‹       0   0à À      ÿDefault Font WIRE LABEL      ð` À†‹ °á" À†‹ °á" 0æ ! W å     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" À†‹ °á" 0æ      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC49P! 5€       0   0à À      ÿDefault Font WIRE LABEL      ð` 0æ °á" 0æ °á" Ð%x å 	 ©	     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" 0æ °á" Ð%x      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC50P! 0ux       0   0à À      ÿDefault Font WIRE LABEL      ð` Ð%x °á" Ð%x °á" pep ©	 ß	 m
+     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" Ð%x °á" pep      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC51P! Ð´p       0   0à À      ÿDefault Font WIRE LABEL      ð` pep °á" pep °á" ¥h m
+ £
+ 1     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" pep °á" ¥h      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC55P! pôh       0   0à À      ÿDefault Font WIRE LABEL      ð` ¥h °á" ¥h °á" °ä` 1 g õ     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" ¥h °á" °ä`      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC54P! 4a       0   0à À      ÿDefault Font WIRE LABEL      ð` °ä` °á" °ä` °á" P$Y õ + a     !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" °ä` °á" P$Y !    PS   À ÿÿÿ ÿÿÿ BUS WIRE    °á" ðcQ °á" P$Y      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿC53P! °sY       0   0à À      ÿDefault Font WIRE LABEL      ð` P$Y °á" P$Y À}ÑÿÀ†‹ t             €þàÿÀ†‹  : t          Àž   @  ÿÿÿ ÿÿÿ WIRE    °ÞäÿÀ†‹ €þàÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE    °Þäÿ¦‡ €þàÿ¦‡ €þàÿÀ†‹      Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿVCCPÝÿ Ö‹       0   0à À      ÿDefault Font WIRE LABEL      À}ÑÿÀ†‹ €þàÿÀ†‹ À}ÑÿP'—                   Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿSCLK >Ùÿ°v—       0   0à À      ÿDefault Font WIRE LABEL      °ÞäÿP'— À}ÑÿP'— À}Ñÿ°çž ‘                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD26 >Ùÿ7Ÿ       0   0à À      ÿDefault Font WIRE LABEL      °Þäÿ°çž À}Ñÿ°çž  ÿU23Ð‡Iÿ@éÿ      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164Ð‡Iÿ`+“ÿ     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164Ð‡Iÿ0Kÿ     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+Ð‡Iÿ0Kÿ     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC0×Iÿà¾èÿ    #              ·     D Ñ ^ ë     x      ’          ÿU24@äÿþ@éÿ      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164@äÿþ`+“ÿ     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164@äÿþ0Kÿ     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+@äÿþ0Kÿ     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC 3 ÿà¾èÿ    $              Ý     k ù D      Ú %     p          ÿU25°@¶þ@éÿ      2   HÐ À      ÿDefault Font COMPONENT ID     ÿ74F164°@¶þ`+“ÿ     5   0à À      ÿDefault Font COMPONENT VALUE     ÿ74F164°@¶þ0Kÿ     1   0à À       ÿ Default Font SUBCKT NAME     ÿ{PACKAGE=DIL14}
+°@¶þ0Kÿ     0   0à À      ÿDefault Font PROPERTIES         
+74F164.IEC¶þà¾èÿ    %              »      Q œ ç     2 }     È         pYxÿÀ}Ñÿ·                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD0@ytÿ ÍÑÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿÀ}ÑÿpYxÿÀ}ÑÿpYxÿ0ÝÅÿD                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD1@ytÿ,Æÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿ0ÝÅÿpYxÿ0ÝÅÿpYxÿÐ¾ÿÑ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD2@ytÿ0l¾ÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿÐ¾ÿpYxÿÐ¾ÿpYxÿp\¶ÿ^                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD3@ytÿÐ«¶ÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿp\¶ÿpYxÿp\¶ÿpYxÿœ®ÿë                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD4@ytÿpë®ÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿœ®ÿpYxÿœ®ÿpYxÿ°Û¦ÿx                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD5@ytÿ+§ÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿ°Û¦ÿpYxÿ°Û¦ÿpYxÿPŸÿ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD6@ytÿ°jŸÿ      0   0à À      ÿDefault Font WIRE LABEL      ™pÿPŸÿpYxÿPŸÿpYxÿðZ—ÿ’                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ™pÿðZ—ÿpYxÿðZ—ÿàµ.ÿÀ}ÑÿÝ                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD10°Õ*ÿ ÍÑÿ      0   0à À      ÿDefault Font WIRE LABEL      €õ&ÿÀ}Ñÿàµ.ÿÀ}Ñÿàµ.ÿ0ÝÅÿk                  Àž   @  ÿÿÿ ÿÿÿ WIRE  ÿD11°Õ*ÿ,Æÿ      0   0à À      ÿDefault Font WIRE LABEL      €õ&ÿ0ÝÅÿàµ.ÿ0ÝÅÿàµ.ÿÐ¾ÿù                  Àž   @  ÿÿÿ ÿÿÿ WIRE    €õ&ÿÐ¾ÿàµ.ÿÐ¾ÿàµ.ÿp\¶ÿD                  Àž   @  ÿÿÿ ÿÿÿ WIRE    €õ&ÿp\¶ÿàµ.ÿp\¶ÿàµ.ÿœ®ÿ                  Àž   @  ÿÿÿ ÿÿÿ WIRE    €õ&ÿœ®ÿàµ.ÿœ®ÿàµ.ÿ°Û¦ÿÚ                  Àž   @  ÿÿÿ ÿÿÿ WIRE    €õ&ÿ°Û¦ÿàµ.ÿ°Û¦ÿàµ.ÿPŸÿ%                  Àž   @  ÿÿÿ ÿÿÿ WIRE    €õ&ÿPŸÿàµ.ÿPŸÿàµ.ÿðZ—ÿp                  Àž   @  ÿÿÿ ÿÿÿ WIRE    €õ&ÿðZ—ÿàµ.ÿðZ—ÿPåþÀ}Ñÿ»                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþÀ}ÑÿPåþÀ}ÑÿPåþ0ÝÅÿ                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþ0ÝÅÿPåþ0ÝÅÿPåþÐ¾ÿQ                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþÐ¾ÿPåþÐ¾ÿPåþp\¶ÿœ                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþp\¶ÿPåþp\¶ÿPåþœ®ÿç                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþœ®ÿPåþœ®ÿPåþ°Û¦ÿ2                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþ°Û¦ÿPåþ°Û¦ÿPåþPŸÿ}                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþPŸÿPåþPŸÿPåþðZ—ÿÈ                  Àž   @  ÿÿÿ ÿÿÿ WIRE    ðQÝþðZ—ÿPåþðZ—ÿÿISIS CIRCUIT FILE    À’ƒ M  OBJECT DATA ÿ CCT000  ­$ __DEFAULT__  û  ROOT10       !     U1 $ RE3/$MCLR$/VPP1RA1/AN1/C12IN1-3RA2/AN2/VREF-/CVREF/C2IN+4RA4/T0CKI/C1OUT6RA5/AN4/SS/C2OUT7RB0/AN12/INT33RB1/AN10/C12IN3-34RB2/AN835RA7/OSC1/CLKIN13RA6/OSC2/CLKOUT14RD5/P1B28RD6/P1C29RD7/P1D30RC4/SDI/SDA23RC5/SDO24RC3/SCK/SCL18RC2/P1A/CCP117RC1/T1OSI/CCP216RC0/T1OSO/T1CKI15RB7/ICSPDAT40RB6/ICSPCLK39RB5/AN13/$T1G$38RB4/AN1137RD322RD221RD120RD019	RC7/RX/DT26	RC6/TX/CK25RE2/AN710RE1/AN69RE0/AN58RA3/AN3/VREF+/C1IN+5RD427RB3/AN9/PGM/C12IN2-36RA0/AN0/ULPWU/C12IN0-2   ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                            	           
+                       	   U2           	M56258E09       
+   U3          U4          U5          U6          U7          U8          U9          U10          U11          U12          U13          U14          U15          U16          U17          U18          U19           U20      !    U21      "    U22      #    U23      $    U24      %     U25        CCT000__DEFAULT__           __DEFAULT__   å  ITFMOD.MDF LISA MODEL DESCRIPTION FORMAT 5.0
+=================================
+Design:   K:\Prodev\Spice\ITFMOD.DSN
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  18/03/98
+Modified: 23/06/05
+
+
+*MODELDEFS,18
+CMOS   : RHI=100,RLO=100,TRISE=1u,TFALL=1u,V+=VDD,V-=VSS
+NMOS   : RHI=100,RLO=10,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND
+TTL    : RHI=50, RLO=5,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,V+=VCC,V-=GND,FLOAT=HIGH
+TTLHC  : RHI=5,RLO=5, V+=VCC,V-=GND
+TTLHCT : RHI=5,RLO=5, V+=VCC,V-=GND
+TTLLS  : RHI=100, RLO=10,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=12k,RNEG=50k, V+=VCC,V-=GND,FLOAT=HIGH
+TTLS   : RHI=25, RLO=2.5,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,TRISE=0.5n,TFALL=0.5n, V+=VCC,V-=GND,FLOAT=HIGH
+PLD    : RHI=20,RLO=20, V+=VCC,V-=GND,FLOAT=HIGH
+PIC    : RSHI=20, RSLO=20,RWHI=20k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+PIC3V3 : RSHI=20, RSLO=20,RWHI=20k,VUD=2,VTL=0.8,VHL=0.1,VTH=1.5,VHH=0.1,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+8051   : RHI=20, RLO=20,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,V+=VCC,V-=GND,FLOAT=HIGH,TRISE=10n,TFALL=10n
+AT89   : RHI=20, RLO=20,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,RPOS=5k,RNEG=20k,V+=VCC,V-=GND,FLOAT=HIGH,TRISE=10n,TFALL=10n
+HC11   : RHI=20, RLO=20,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+AVR    : RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND,TRISE=10n,TFALL=10n
+MSP430 : RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND,TRISE=10n,TFALL=10n
+PICCOLO: RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VCC,V-=GND,TRISE=1n,TFALL=1n
+LPC2100: RSHI=20, RSLO=20,RWHI=100k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=V3,V-=VSS
+BSTAMP : RSHI=20, RSLO=20,RWHI=20k,VUD=2,VTL=0.8,VHL=0.2,VTH=2.5,VHH=0.2,V+=VDD,V-=VSS,TRISE=10n,TFALL=10n
+RS232  : VLO=-8.5,VHI=8.5,RHI=300,RLO=300,VTL=1.2,VHL=0.5,VTH=1.7,VHH=0.5,RPOS=5k,RNEG=5k,V+=VCC,V-=GND,FLOAT=HIGH,TRISE=1u,TFALL=1u
+    š™™™™™©?š™™™™™©?š™™™™™™?         @Žíµ ÷Æ°>1  €-      ABSTOL 1e-12    BADMOS3 No    BYPASS Yes    CHGTOL 1e-14    DEFAD 0    DEFAS 0    DEFAULTS 0    DEFL 0.0001    DEFW 0.0001    GMIN 1e-12    GMINSTEPS 120 	   ITL1 100    ITL2 50    ITL4 10    LOGSTART 0    LOGTIME 60 	   MAXORD 2    METHOD GEAR    NOOPITER No    NUMSTEPS 50    OLDLIMIT No    PIVREL 0.001    PIVTOL 1e-13    RELTOL 0.001    RSHUNT 1e+12    SRCSTEPS 120    TDLOWER 0.9 
+   TDSCALE 1    TDUPPER 1.1    TEMP 27    TMIN 1e-18    TNOM 27    TRACE_CONTENTIONS 1,0    TRACE_CONVERGENCE 1,1    TRACE_DCPATHS 1,2    TRACE_ITFMODS 1,3    TRACE_NETTYPES 1,4    TRACE_OPTIONS 1,5    TRACE_PERFORMANCE 1,6    TRACE_SPICELINK 1,7    TRANGMIN 1e-09    TRTOL 7    TRYTOCOMPACT No    TTOL 1e-09    VNTOL 1e-06      @   v â“ýPiþ l°ó–¨j+ÿ„ˆ«ÿ        ÿÿÿÿ«      àÁ& 0à    0à ð 

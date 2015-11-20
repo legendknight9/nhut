@@ -1,0 +1,91 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020-034 d_row0
+035-049 d_row1
+04A-05E d_row2
+05F-073 d_row3
+074     current_row
+075-076 strtok.save
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+0A0-0B4 d_row4
+0B5-0C9 d_row5
+0CA-0DE d_row6
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+110-124 d_row7
+125     off_row.loop
+125-126 data_to_row.d_row
+126     @delay_ms1.P1
+126     off_row.@SCRATCH1
+127     data_to_row.column
+128-12A data_to_row.d_column
+12B-12C data_to_column.d_col
+12B     data_to_row.@SCRATCH1
+12C     data_to_row.@SCRATCH2
+12D     data_to_column.loop
+12D     @READBITA.P1
+12E-12F @READBITA.P1
+12E     data_to_column.@SCRATCH1
+12F     data_to_column.@SCRATCH2
+
+ROM Allocation:
+000004  @delay_ms1
+00001C  sys_initialize
+00003F  off_row
+000093  @READBITA
+0000AC  data_to_row
+00028A  data_to_column
+0002E8  MAIN
+0002E8  @cinit1
+0002FA  @cinit2
+
+Project Directory:
+    D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\code\
+
+Project Files:
+    led_matrix_ds18b20.c                                    [01-Nov-15 16:48  CRC=651443AC]
+    led_matrix_ds18b20.h                                    [01-Nov-15 15:42  CRC=2CFE236C]
+    C:\Program Files (x86)\PICC\Devices\16F887.h            [21-Jun-13 16:04  CRC=9FD133B5]
+    myds18b20.h                                             [31-Oct-15 21:49  CRC=00000000]
+    my_sign.h                                               [01-Nov-15 16:17  CRC=FD354315]
+    C:\Program Files (x86)\PICC\Drivers\stdio.h             [31-Jul-07 13:24  CRC=4E4534F4]
+    C:\Program Files (x86)\PICC\Drivers\string.h            [14-Jul-11 10:13  CRC=23EDEC8F]
+    C:\Program Files (x86)\PICC\Drivers\stddef.h            [16-Jul-10 09:27  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\Drivers\ctype.h             [03-Jan-08 13:55  CRC=2D1F019F]
+
+Source signature=8506EF0F
+
+Units:
+    led_matrix_ds18b20 (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   led_matrix_ds18b20.xsym
+    Errors:      led_matrix_ds18b20.err
+    Ext Symbols: led_matrix_ds18b20.esym
+    INHX8:       led_matrix_ds18b20.hex
+    Symbols:     led_matrix_ds18b20.sym
+    List:        led_matrix_ds18b20.lst
+    Debug/COFF:  led_matrix_ds18b20.cof
+    Project:     led_matrix_ds18b20.ccspjt
+    Call Tree:   led_matrix_ds18b20.tre
+    Statistics:  led_matrix_ds18b20.STA

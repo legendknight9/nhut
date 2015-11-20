@@ -1,0 +1,566 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\led_matrix_ds18b20.X.production.obj
+text4_split_1 CODE 0 9C7 9C7 85 2
+text4_split_2 CODE 0 943 943 84 2
+text4_split_3 CODE 0 AD2 AD2 87 2
+text4_split_4 CODE 0 BE1 BE1 88 2
+text4_split_5 CODE 0 D7C D7C 8D 2
+text4_split_6 CODE 0 E99 E99 A7 2
+text4_split_7 CODE 0 A4C A4C 86 2
+text4_split_8 CODE 0 B59 B59 88 2
+text4_split_9 CODE 0 F40 F40 C0 2
+cinit CODE 0 7F6 7F6 A 2
+text1 CODE 0 8E5 8E5 5E 2
+text2 CODE 0 18 18 2D 2
+text3 CODE 0 E E A 2
+text4 CODE 0 C69 C69 89 2
+text5 CODE 0 17A5 17A5 5B 2
+text6 CODE 0 8C0 8C0 25 2
+text7 CODE 0 7 7 7 2
+maintext CODE 0 1786 1786 1F 2
+cstackCOMMON COMMON 1 70 70 B 1
+cstackBANK0 BANK0 1 20 20 D 1
+text4_split_10 CODE 0 E09 E09 90 2
+text4_split_11 CODE 0 CF2 CF2 8A 2
+text4_split_12 CODE 0 45 45 7B1 2
+bssBANK0 BANK0 1 2D 2D 3 1
+strings STRING 0 800 800 AE 2
+bssCOMMON COMMON 1 7B 7B 3 1
+$C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+end_init CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 30-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 30-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 3-6 2
+CONST 8AE-8BF 2
+CONST 1000-1785 2
+CONST 1800-1FFF 2
+ENTRY 3-6 2
+ENTRY 8AE-8BF 2
+ENTRY 1000-1785 2
+ENTRY 1800-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 3-6 2
+CODE 8AE-8BF 2
+CODE 1000-1785 2
+CODE 1800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 3-6 2
+STRCODE 8AE-8BF 2
+STRCODE 1000-1785 2
+STRCODE 1800-1FFF 2
+STRING 3-6 2
+STRING 8AE-8BF 2
+STRING 1000-1785 2
+STRING 1800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\led_matrix_ds18b20.X.production.obj
+7F6 cinit CODE >667:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7F6 cinit CODE >670:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7F6 cinit CODE >693:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7F7 cinit CODE >694:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7F8 cinit CODE >695:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7F9 cinit CODE >698:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7FA cinit CODE >699:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7FB cinit CODE >700:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7FC cinit CODE >706:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7FC cinit CODE >708:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+7FD cinit CODE >709:C:\Users\Nhut\AppData\Local\Temp\sjf0.
+84 text4_split_12 CODE >106:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8E text4_split_12 CODE >107:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+B4 text4_split_12 CODE >108:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+DA text4_split_12 CODE >109:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+E5 text4_split_12 CODE >111:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+EB text4_split_12 CODE >113:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+15D text4_split_12 CODE >115:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+1CF text4_split_12 CODE >117:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+240 text4_split_12 CODE >118:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+24A text4_split_12 CODE >119:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+270 text4_split_12 CODE >120:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+296 text4_split_12 CODE >121:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+2A1 text4_split_12 CODE >123:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+2A7 text4_split_12 CODE >125:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+31A text4_split_12 CODE >127:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+38D text4_split_12 CODE >129:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+3FF text4_split_12 CODE >130:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+409 text4_split_12 CODE >131:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+42F text4_split_12 CODE >132:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+455 text4_split_12 CODE >133:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+460 text4_split_12 CODE >135:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+466 text4_split_12 CODE >137:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+4DA text4_split_12 CODE >139:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+54E text4_split_12 CODE >141:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+5C1 text4_split_12 CODE >142:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+5CB text4_split_12 CODE >143:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+5F1 text4_split_12 CODE >144:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+617 text4_split_12 CODE >145:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+622 text4_split_12 CODE >147:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+624 text4_split_12 CODE >149:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+6A0 text4_split_12 CODE >151:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+71A text4_split_12 CODE >153:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+793 text4_split_12 CODE >154:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+79D text4_split_12 CODE >155:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+7C3 text4_split_12 CODE >156:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+7E9 text4_split_12 CODE >157:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+7F2 text4_split_12 CODE >159:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+7F5 text4_split_12 CODE >160:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+D4A text4_split_11 CODE >105:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+E0E text4_split_10 CODE >101:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+E7F text4_split_10 CODE >103:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+F9D text4_split_9 CODE >94:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+FA7 text4_split_9 CODE >95:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+FCD text4_split_9 CODE >96:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+FF3 text4_split_9 CODE >97:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+FFC text4_split_9 CODE >99:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+BC7 text4_split_8 CODE >93:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+A51 text4_split_7 CODE >89:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+AC8 text4_split_7 CODE >91:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+EDD text4_split_6 CODE >82:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+EE7 text4_split_6 CODE >83:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+F0D text4_split_6 CODE >84:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+F33 text4_split_6 CODE >85:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+F3C text4_split_6 CODE >87:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+DD4 text4_split_5 CODE >81:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C47 text4_split_4 CODE >79:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+ADE text4_split_3 CODE >70:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+AE8 text4_split_3 CODE >71:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+B0E text4_split_3 CODE >72:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+B34 text4_split_3 CODE >73:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+B3F text4_split_3 CODE >75:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+B45 text4_split_3 CODE >77:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+94F text4_split_2 CODE >69:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+9C7 text4_split_1 CODE >65:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+9D3 text4_split_1 CODE >67:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+7 text7 CODE >4:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\myds18b20.c
+7 text7 CODE >5:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\myds18b20.c
+A text7 CODE >6:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\myds18b20.c
+D text7 CODE >7:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\myds18b20.c
+8C0 text6 CODE >3:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8C0 text6 CODE >4:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8C4 text6 CODE >5:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8C7 text6 CODE >6:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8C8 text6 CODE >7:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8C9 text6 CODE >8:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8CA text6 CODE >9:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8D3 text6 CODE >10:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8D6 text6 CODE >11:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8DB text6 CODE >12:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8E4 text6 CODE >13:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17A5 text5 CODE >15:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17A5 text5 CODE >16:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17A9 text5 CODE >17:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17A9 text5 CODE >25:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17AC text5 CODE >18:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17C4 text5 CODE >19:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17C7 text5 CODE >20:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17CA text5 CODE >21:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17CF text5 CODE >22:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17D2 text5 CODE >23:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17D7 text5 CODE >24:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17D9 text5 CODE >17:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17DA text5 CODE >26:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17E3 text5 CODE >27:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17E6 text5 CODE >28:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17E9 text5 CODE >29:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17EE text5 CODE >30:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17F1 text5 CODE >32:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17F4 text5 CODE >34:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17F7 text5 CODE >35:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17FC text5 CODE >36:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17FF text5 CODE >38:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C69 text4 CODE >41:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C6A text4 CODE >42:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C6D text4 CODE >43:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C72 text4 CODE >44:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C75 text4 CODE >63:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+C79 text4 CODE >65:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+E text3 CODE >180:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+E text3 CODE >181:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+11 text3 CODE >182:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+12 text3 CODE >183:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+13 text3 CODE >184:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+16 text3 CODE >185:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17 text3 CODE >186:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+18 text2 CODE >165:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+19 text2 CODE >166:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+26 text2 CODE >167:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+29 text2 CODE >168:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+2A text2 CODE >169:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+2F text2 CODE >170:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+32 text2 CODE >171:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+37 text2 CODE >172:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+3C text2 CODE >173:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+3F text2 CODE >174:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+40 text2 CODE >175:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+43 text2 CODE >176:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+44 text2 CODE >172:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8E5 text1 CODE >191:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8E6 text1 CODE >192:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8EC text1 CODE >193:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8F2 text1 CODE >194:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8F7 text1 CODE >195:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+8FD text1 CODE >196:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+902 text1 CODE >197:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+908 text1 CODE >198:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+90D text1 CODE >199:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+913 text1 CODE >200:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+918 text1 CODE >201:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+91E text1 CODE >202:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+923 text1 CODE >203:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+929 text1 CODE >204:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+92E text1 CODE >205:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+934 text1 CODE >206:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+939 text1 CODE >207:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+93F text1 CODE >208:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+942 text1 CODE >209:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+1786 maintext CODE >212:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+1786 maintext CODE >213:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+178B maintext CODE >214:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+178C maintext CODE >216:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+1792 maintext CODE >217:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+1798 maintext CODE >218:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+179E maintext CODE >219:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+17A4 maintext CODE >215:D:\diaE2\Dien tu\cac mach\Nhut\led_ma_tran_ds18b20\xc8_project\led_matrix_ds18b20.X\led_matrix_ds18b20.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hspace_0 2009 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__end_of_write_line 1286 0 CODE 0 text1 dist/default/production\led_matrix_ds18b20.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ltemp0 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ltemp1 82 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ltemp2 86 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ltemp3 80 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+___sp 0 0 STACK 2 stack C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+_main 2F0C 0 CODE 0 maintext dist/default/production\led_matrix_ds18b20.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ltemp 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__size_of_next_row 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+start 0 0 CODE 0 init C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+ttemp 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+_data_to_row 18D2 0 CODE 0 text4 dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_ds18b20_initialize 1C 0 CODE 0 text7 dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hpowerup 0 0 CODE 0 powerup -
+ttemp0 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ttemp1 81 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ttemp2 84 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ttemp3 87 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+ttemp4 7F 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+pnum$text4 C 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp1 80 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp2 82 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp3 84 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp4 86 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp5 88 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+wtemp6 7F 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+_ds18b20_initialize E 0 CODE 0 text7 dist/default/production\led_matrix_ds18b20.X.production.obj
+_next_row 1C 0 CODE 0 text3 dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_next_row 30 0 CODE 0 text3 dist/default/production\led_matrix_ds18b20.X.production.obj
+_select_line 30 0 CODE 0 text2 dist/default/production\led_matrix_ds18b20.X.production.obj
+__Lmaintext 0 0 ABS 0 maintext -
+__end_of_d_row0 1036 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row1 1060 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row2 108A 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row3 10B4 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row4 10DE 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row5 1108 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row6 1132 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_d_row7 115C 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_sys_initialize 1180 0 CODE 0 text6 dist/default/production\led_matrix_ds18b20.X.production.obj
+start_initialization FEC 0 CODE 0 cinit dist/default/production\led_matrix_ds18b20.X.production.obj
+__size_of_write_line 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_data_to_column 2F4A 0 CODE 0 text5 dist/default/production\led_matrix_ds18b20.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_sys_initialize 11CA 0 CODE 0 text6 dist/default/production\led_matrix_ds18b20.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 100A 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4012 0 CONFIG 0 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FEC 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lstack 0 0 STACK 2 stack -
+__end_of_data_to_column 3000 0 CODE 0 text5 dist/default/production\led_matrix_ds18b20.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+psplit$0 C0010 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$1 100011 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$2 110012 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$3 120013 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$4 130014 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$5 140015 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$6 150016 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$7 160017 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$8 170018 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$9 180019 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_RD2 42 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_RD3 43 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_RD4 44 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_RD5 45 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_RD6 46 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_RD7 47 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_RE2 4A 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__S0 2009 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__end_of_data_to_row FEC 0 CODE 0 text4_split_12 dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row0 100C 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row1 1036 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row2 1060 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row3 108A 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row4 10B4 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row5 10DE 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row6 1108 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_row7 1132 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__size_of_ds18b20_initialize 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__Lintentry 0 0 CODE 0 intentry -
+data_to_row@d_row 78 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__stringtab 1000 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_10 19 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_11 1A 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_12 1B 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+data_to_row@mask 77 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+data_to_column@d_col 70 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+main@line_num 7A 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of_select_line 8A 0 CODE 0 text2 dist/default/production\led_matrix_ds18b20.X.production.obj
+__pmaintext 2F0C 0 CODE 0 maintext dist/default/production\led_matrix_ds18b20.X.production.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 400E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_IESO$ON 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_1 10 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_2 11 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_3 12 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_4 13 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_5 14 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_6 15 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_7 16 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_8 17 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+pnum$text4_split_9 18 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+stacklo 0 0 ABS 0 - C:\Users\Nhut\AppData\Local\Temp\sjf0.obj
+__end_of__stringtab 100C 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 7B 0 COMMON 1 bssCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__Lend_init 0 0 CODE 0 end_init -
+__CFG_LVP$ON 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$10 19001A 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+psplit$11 1A001B 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hintentry 0 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__size_of_data_to_row 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext1 11CA 0 CODE 0 text1 dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext2 30 0 CODE 0 text2 dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext3 1C 0 CODE 0 text3 dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext4 18D2 0 CODE 0 text4 dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext5 2F4A 0 CODE 0 text5 dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext6 1180 0 CODE 0 text6 dist/default/production\led_matrix_ds18b20.X.production.obj
+__ptext7 E 0 CODE 0 text7 dist/default/production\led_matrix_ds18b20.X.production.obj
+select_line@line_number 72 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__size_of_sys_initialize 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\led_matrix_ds18b20.X.production.obj
+__Lfunctab 0 0 CODE 0 functab -
+__Lclrtext 0 0 ABS 0 clrtext -
+select_line@loop 73 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__size_of_select_line 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_write_line 11CA 0 CODE 0 text1 dist/default/production\led_matrix_ds18b20.X.production.obj
+__size_of_data_to_column 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hend_init 6 0 CODE 0 end_init -
+__end_of_main 2F4A 0 CODE 0 maintext dist/default/production\led_matrix_ds18b20.X.production.obj
+_PORTD 8 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_PORTE 9 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_TRISD 88 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+_TRISE 89 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+write_line@line_number 79 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+data_to_column@loop 76 0 COMMON 1 cstackCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+_line1 2D 0 BANK0 1 bssBANK0 dist/default/production\led_matrix_ds18b20.X.production.obj
+_line2 2E 0 BANK0 1 bssBANK0 dist/default/production\led_matrix_ds18b20.X.production.obj
+_line3 2F 0 BANK0 1 bssBANK0 dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__initialization FEC 0 CODE 0 cinit dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__pbssBANK0 2D 0 BANK0 1 bssBANK0 dist/default/production\led_matrix_ds18b20.X.production.obj
+_d_column 7B 0 COMMON 1 bssCOMMON dist/default/production\led_matrix_ds18b20.X.production.obj
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\led_matrix_ds18b20.X.production.obj
+__pstrings 1000 0 STRING 0 strings dist/default/production\led_matrix_ds18b20.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+text4 text4_split_1
+text4_split_1 text4_split_2
+text4_split_2 text4_split_3
+text4_split_3 text4_split_4
+text4_split_4 text4_split_5
+text4_split_5 text4_split_6
+text4_split_6 text4_split_7
+text4_split_7 text4_split_8
+text4_split_8 text4_split_9
+text4_split_9 text4_split_10
+text4_split_10 text4_split_11
+text4_split_11 text4_split_12
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text4_split_1 0 9C7 138E 85 2
+text4_split_2 0 943 1286 84 2
+text4_split_3 0 AD2 15A4 87 2
+text4_split_4 0 BE1 17C2 88 2
+text4_split_5 0 D7C 1AF8 8D 2
+text4_split_6 0 E99 1D32 A7 2
+text4_split_7 0 A4C 1498 86 2
+text4_split_8 0 B59 16B2 88 2
+text4_split_9 0 F40 1E80 C0 2
+cinit 0 7F6 FEC A 2
+text1 0 8E5 11CA 5E 2
+text2 0 18 30 2D 2
+text3 0 E 1C A 2
+text4 0 C69 18D2 89 2
+text5 0 17A5 2F4A 5B 2
+text6 0 8C0 1180 25 2
+text7 0 7 E 7 2
+maintext 0 1786 2F0C 1F 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 10 1
+text4_split_10 0 E09 1C12 90 2
+text4_split_11 0 CF2 19E4 8A 2
+text4_split_12 0 45 8A 7B1 2
+reset_vec 0 0 0 3 2
+strings 0 800 1000 AE 2
+config 0 2007 400E 2 2

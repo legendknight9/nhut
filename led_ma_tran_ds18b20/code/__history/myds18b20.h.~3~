@@ -1,0 +1,2 @@
+#define T_sense   PIN_E0
+#define PS_T_sense   PIN_E1

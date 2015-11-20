@@ -1,0 +1,192 @@
+#include <led_matrix_ds18b20.h>
+#include <stdio.h>
+
+void fix_sim_err() {
+   int8 loop = 8;
+   output_high(LMRS);
+   delay_ms(5);
+   output_low(SC_SIGNAL);
+   delay_cycles(1);
+   output_high(SCCLK);
+   output_high(SC_SIGNAL);
+   delay_ms(1);
+   output_low(SCCLK);
+   delay_ms(1);
+   while(loop-- > 0) {
+      output_high(SCCLK);
+      delay_ms(1);
+      output_low(SCCLK);
+      delay_ms(1);   
+   }
+//   current_row = 7;
+}
+
+void off_row() {
+   int8 loop = 8;
+   output_high(LMRS);
+   delay_ms(5);
+   output_low(SC_SIGNAL);
+   delay_cycles(1);
+   output_high(SCCLK);
+   output_high(SC_SIGNAL);
+   delay_ms(1);
+   output_low(SCCLK);
+   delay_ms(1);
+   while(loop-- > 0) {
+      output_high(SCCLK);
+      delay_ms(1);
+      output_low(SCCLK);
+      delay_ms(1);   
+   }
+   current_row[0] = 1;
+   current_row[1] = 1;
+   current_row[2] = 1;
+   current_row[3] = 1;
+   current_row[4] = 1;
+   current_row[5] = 1;
+   current_row[6] = 1;
+   current_row[7] = 0;
+}
+
+void sys_initialize() {
+   output_D(0);
+   output_E(0);
+   output_low(LMRS);
+   output_high(SC_SIGNAL);
+   delay_ms(5);
+   output_high(LMRS);
+   delay_ms(5);
+   off_row();
+   //fix_sim_err();  
+}
+
+void data_to_column(int1 d_col[24]) {
+   int8 loop = 24;
+   while(loop > 0)
+   {      
+      output_bit(Data, shift_left(d_col, 3, 0));
+      delay_cycles(5);
+      output_high(SHCLK0);  
+      delay_us(5);
+      output_low(SHCLK0);
+      delay_us(5);
+      loop--;
+   }
+   output_high(SHCLK);  
+   delay_us(5);
+   output_low(SHCLK);
+   delay_us(5);
+}
+
+void scan_row() {
+   output_bit(SC_SIGNAL, shift_left(current_row, 1, input(SC_SIGNAL)));
+   delay_cycles(1);
+   output_high(SCCLK);  
+//   delay_us(50);
+   delay_us(10);
+   output_low(SCCLK);
+   delay_us(10);
+//   delay_us(50);   
+}
+
+   /*
+   22 21 20 19 18 17 16
+   14 13 12 11 10 9  8
+   6  5  4  2  2  1  0
+   
+   167 159 151 143 135 127 119
+   111 103 95  87  79  71  63
+   55  47  39  31  23  15  7  
+   */   
+//!void data_to_row(int1 d_row[168]) {
+//!   int8 column, line, index, indexDI, number_of_led_matrix_per_line;
+//!
+//!   column = 8;
+//!   while(column-- > 0)
+//!   {
+//!      line = 3;
+//!      while (line-- > 0) {                        
+//!         //indexDI = 7 * line + line - 2;
+//!         indexDI = 22;
+//!         number_of_led_matrix_per_line = 7;
+//!         while (number_of_led_matrix_per_line-- > 0) {
+//!            index = (line * 56) - 1 - ((7 - number_of_led_matrix_per_line) * 8) - (8 - column);
+//!            d_column[indexDI--] = d_row[index];
+//!            if ((indexDI == 15) || (indexDI == 7)) {
+//!               indexDI--;
+//!            }
+//!         }
+//!      }
+//!      d_column[23] = 0;
+//!      data_to_column(d_column);
+//!   }
+//!   scan_row();
+//!}
+
+void data_to_row(int1 d_row) {
+   int8 column = 8;
+   int1 d_column[24];
+   while(column-- > 0)
+   {                          
+      d_column[23] = 0;
+      d_column[22] = d_row[167 - (8 - column)];
+      d_column[21] = d_row[159 - (8 - column)];
+      d_column[20] = d_row[151 - (8 - column)];
+      d_column[19] = d_row[143 - (8 - column)];
+      d_column[18] = d_row[135 - (8 - column)];
+      d_column[17] = d_row[127 - (8 - column)];
+      d_column[16] = d_row[119 - (8 - column)];
+      d_column[14] = d_row[111 - (8 - column)];
+      d_column[13] = d_row[103 - (8 - column)];
+      d_column[12] = d_row[95 - (8 - column)];
+      d_column[11] = d_row[87 - (8 - column)];
+      d_column[10] = d_row[79 - (8 - column)];
+      d_column[9] = d_row[71 - (8 - column)];
+      d_column[8] = d_row[63 - (8 - column)];
+      d_column[6] = d_row[55 - (8 - column)];
+      d_column[5] = d_row[47 - (8 - column)];
+      d_column[4] = d_row[39 - (8 - column)];
+      d_column[3] = d_row[31 - (8 - column)];
+      d_column[2] = d_row[23 - (8 - column)];
+      d_column[1] = d_row[15 - (8 - column)];
+      d_column[0] = d_row[7 - (8 - column)];      
+      data_to_column(d_column);
+   }
+   scan_row();
+}
+
+int1 d_row0[168] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+int1 d_row1[168] = {1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1};
+int1 d_row2[168] = {1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1};
+int1 d_row3[168] = {1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1};
+int1 d_row4[168] = {1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1};
+int1 d_row5[168] = {1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1};
+int1 d_row6[168] = {1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1};
+int1 d_row7[168] = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
+
+void main() {
+   sys_initialize();     
+   while(TRUE) {
+      data_to_row(d_row0); // row 0
+      data_to_row(d_row1); // row 1
+      data_to_row(d_row2); // row 2
+      data_to_row(d_row3); // row 3
+      data_to_row(d_row4); // row 4
+      data_to_row(d_row5); // row 5
+      data_to_row(d_row6); // row 6
+      data_to_row(d_row7); // row 7
+   }
+}
+/*
+while (TRUE) {
+   int1 d_column[24]  = {1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0};
+   data_to_column(d_column);
+   int1 d_column1[24] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0};
+   data_to_column(d_column1);
+   int1 d_column2[24] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+   data_to_column(d_column2);
+   int1 d_column3[24] = {1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0};
+   data_to_column(d_column3);
+}
+
+*/
